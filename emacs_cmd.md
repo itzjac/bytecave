@@ -1,12 +1,9 @@
-#Macros
-ALT+[ Start recording macro
-ALT+] Stop recording macro
-ALT+' Replay recorded macro
-
 #Execution
+
 ALT+M
 
 #Navigation
+
 CTRL+< Beginning of file
 CTRL+> End of file
 ALT+F Load file
@@ -53,6 +50,7 @@ ALT+2 Begining of line
 ALT+3 End of line
 
 #Emacs Command line 
+
 global-linum-mode
 linum-mode
 quick-calc
@@ -60,4 +58,9 @@ indent-region
 comment-region
 grep
 
-© 2021 GitHub, Inc.
+#Macros
+
+A L T + [
+
+A L T + ] Stop recording macro
+ALT+' Replay recorded macro
