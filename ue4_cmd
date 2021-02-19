@@ -1,0 +1,29 @@
+#UE4 binary distro
+AutomationTool BuildGraph -target="Make Installed Build Win64" -script=Engine/Build/BARBBuildDistro.xml -clean
+UnrealVersionSelector.exe /fileassociations
+
+
+#UE4 new engine version
+Build\BatchFiles\RunUAT.bat -list 
+Binaries\DotNET>..\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion (must be P4 connected)
+
+
+#UE4 Commands
+Netprofile enable
+Netprofile disable
+Stat startfile
+Stat stopfile
+Stat Obj
+Slomo [float value]
+
+#UE4 Build system
+https://docs.unrealengine.com/latest/INT/Programming/UnrealBuildSystem/Configuration/index.html Unreal Build System
+
+
+Disable IncrediBuild here!!!
+UnrealEngine-4.16\Engine\Saved\UnrealBuildTool\BuildConfiguration.xml
+     ```<BuildConfiguration>
+         <bAllowXGE>false</bAllowXGE>
+     </BuildConfiguration>```
+Command line -noxge
+
