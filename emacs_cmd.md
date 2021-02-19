@@ -1,12 +1,11 @@
 # Execution
 
-*ALT+M
+* ALT+M
 
 # Navigation
 
-*CTRL+< Beginning of file
-
-*CTRL+> End of file
+* CTRL+< Beginning of file
+* CTRL+> End of file
 
 *ALT+F Load file
 
