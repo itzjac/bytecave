@@ -41,3 +41,36 @@ UnrealEngine-4.16\Engine\Saved\UnrealBuildTool\BuildConfiguration.xml
      </BuildConfiguration>```
 Command line -noxge
 
+
+#Uncooked builds execution
+@ECHO OFF
+client
+start "MyGameClient" /D "UE4\Engine\Binaries\Win64" /MAX UE4Editor.exe  "full_path\MyGame\MyGame.uproject" -game 127.0.0.1 -log -messaging
+editor
+start "MyGameEditor" /D "UE4\Engine\Binaries\Win64" /MAX UE4Editor.exe  "full_path\MyGame\MyGame.uproject" Example_Map -log -messaging
+server
+@echo off
+start "MyGameserver" /D "UE4\Engine\Binaries\Win64" /MAX UE4Editor.exe  "full_path\MyGame\MyGame.uproject" Example_Map -log -messaging Example_Map -server -log -messaging
+
+auto test
+@echo off
+SET IPServer=127.0.0.1
+
+SET Server=TestSystemMap016?
+REM MAP_PVPSetdressTest_005
+
+start "MyGameServer" /D "UE4\Engine\Binaries\Win64" /MAX UE4Editor.exe  "full_path\MyGame\MyGame.uproject" Example_Map?port=36004 -server -log -messaging -NOSTEAM -PORT=7810
+
+echo giving server some time to start
+
+ping /n 16 localhost >nul
+
+echo starting test client
+
+ping /n 7 localhost >nul
+
+exit
+
+
+
+
