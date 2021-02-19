@@ -1,3 +1,10 @@
+# Run
+* dxdiag
+* service.msc
+* regedit
+* iexplorer
+
+
 ## Strip out pdbs
 * del /s /q *.pdb
 * rmdir /s /q *.pdb
