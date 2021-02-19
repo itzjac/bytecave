@@ -6,6 +6,31 @@
 # UE4 new engine version
 * Build\BatchFiles\RunUAT.bat -list 
 * Binaries\DotNET>..\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion (must be P4 connected)
+* https://answers.unrealengine.com/questions/873535/automationtool-error-failed-to-delete-automationut.html
+* Engine\Source\Programs\DotNETCommon\MetaData.cs
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+using System.Reflection;
+using System.Runtime.InteropServices;
+using System.Resources;
+
+// These are the assembly properties for all tools
+[assembly: AssemblyCompany( "Epic Games, Inc." )]
+[assembly: AssemblyProduct( "UE4" )]
+[assembly: AssemblyCopyright( "Copyright Epic Games, Inc. All Rights Reserved." )]
+[assembly: AssemblyTrademark( "" )]
+
+// Use a neutral culture to avoid some localisation issues
+[assembly: AssemblyCulture( "" )]
+
+[assembly: ComVisible( false )]
+[assembly: NeutralResourcesLanguageAttribute( "" )]
+
+#if !SPECIFIC_VERSION
+// Automatically generate a version number based on the time of compilation
+[assembly: AssemblyVersion( "4.0.0.0" )]
+[assembly: AssemblyInformationalVersion("4.25.666-ByteCave")]
+#endif
 
 
 # UE4 Commands
