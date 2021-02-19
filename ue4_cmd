@@ -15,6 +15,20 @@ Stat startfile
 Stat stopfile
 Stat Obj
 Slomo [float value]
+showflag.toggleparticles 0/1
+showflag.wireframe 0/1
+memreport -full
+stat D3D1RHI
+stat scenerendering
+stat engine
+toggleUI 1/0
+showdebug bones
+Net PktLoss=1
+Net PktOrder=0
+Net PktDup=0
+Net PktLag=75
+Net PktLagVariance=0
+p.netshowcorrections 1
 
 #UE4 Build system
 https://docs.unrealengine.com/latest/INT/Programming/UnrealBuildSystem/Configuration/index.html Unreal Build System
