@@ -8,6 +8,7 @@
 * Binaries\DotNET>.. \ .. \Build\BatchFiles\RunUAT.bat UpdateLocalVersion (must be P4 connected)
 * https://answers.unrealengine.com/questions/873535/automationtool-error-failed-to-delete-automationut.html
 * Engine\Source\Programs\DotNETCommon\MetaData.cs
+* UE4Build.cs line //CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, ChangelistNumber), false, false);
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 using System.Reflection;
