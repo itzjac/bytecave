@@ -1,3 +1,3 @@
 # bytecave
 
-Command line tool set when developing video games
+The Command line toolset for video game development
