@@ -29,6 +29,7 @@
 *Net PktLag=75
 * Net PktLagVariance=0
 * p.netshowcorrections 1
+* t.Max FPS 30
 
 # UE4 Build system
 https://docs.unrealengine.com/latest/INT/Programming/UnrealBuildSystem/Configuration/index.html Unreal Build System
