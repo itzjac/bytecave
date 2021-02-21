@@ -117,7 +117,7 @@ const FText Version = FText::FromString( FEngineVersion::Current().ToString());
  * https://stackoverflow.com/questions/37960616/exception-thrown-system-exception-in-mscorlib-ni-dll-on-uwp-app-start 
  
 # UE4-Binary-Distro
-Deploy a custom engine version for artists or machine without VStudio
+Deploy a custom engine version for artists or machines without VStudio
 
 ## Requirements
 * PDBCOPY.EXE https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/
