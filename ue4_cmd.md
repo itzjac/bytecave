@@ -9,7 +9,7 @@ verify listing all the command line options
 Binaries\DotNET>.. \ .. \Build\BatchFiles\RunUAT.bat -list 
 ```
 
-Generally, to update a newer engine version, it must be P4 connected
+Generally, to generate a new engine version, it must be P4 connected
 ```
 Binaries\DotNET>.. \ .. \Build\BatchFiles\RunUAT.bat UpdateLocalVersion
 ```
