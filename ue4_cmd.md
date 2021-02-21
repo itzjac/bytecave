@@ -58,10 +58,10 @@ AutomationToolLauncher UpdateLocalVersion -Verbose -NoP4
 		
 		
 * All occurrencies
-`if(!NoP4 && CommandUtils.P4Enabled && ChangelistNumber > 0)
-{
-CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, ChangelistNumber), false, false);
-}`
+    if(!NoP4 && CommandUtils.P4Enabled && ChangelistNumber > 0)
+    {
+	CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, ChangelistNumber), false, false);
+    }
 
 UE4Build.cs
 bool bDoUpdateVersionFiles = /*CommandUtils.P4Enabled &&*/ ActuallyUpdateVersionFiles;		
