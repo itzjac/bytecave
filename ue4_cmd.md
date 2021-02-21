@@ -4,8 +4,12 @@
 
 
 # UE4 new engine version
+Build.version is the entry point to change the engine version
+
 AutomationToolLauncher UpdateLocalVersion -Verbose -NoP4
-Automation.cs if (CommandUtils.P4Enabled) to false change it during runtime, 
+-NoP4 doesn't work out of the box
+
+* First approach hack, Automation.cs if (CommandUtils.P4Enabled) to false change it during runtime
 
 
 * Build\BatchFiles\RunUAT.bat -list 
@@ -15,27 +19,56 @@ Automation.cs if (CommandUtils.P4Enabled) to false change it during runtime,
 * UE4Build.cs line //CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, ChangelistNumber), false, false);
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-using System.Reflection;
-using System.Runtime.InteropServices;
-using System.Resources;
 
-// These are the assembly properties for all tools
-[assembly: AssemblyCompany( "Epic Games, Inc." )]
-[assembly: AssemblyProduct( "UE4" )]
-[assembly: AssemblyCopyright( "Copyright Epic Games, Inc. All Rights Reserved." )]
-[assembly: AssemblyTrademark( "" )]
+* Second approach P4Utils.cs with NoP4 support
+private static void CheckIfCommandsRequireP4(List<CommandInfo> CommandsToExecute, Dictionary<string, Type> Commands, out bool bRequireP4, out bool bRequireCL)
+		{
+			bRequireP4 = false;
+			bRequireCL = false;
 
-// Use a neutral culture to avoid some localisation issues
-[assembly: AssemblyCulture( "" )]
+			foreach (var CommandInfo in CommandsToExecute)
+			{
+				Type Command;
+				if (Commands.TryGetValue(CommandInfo.CommandName, out Command))
+				{
+					bool bArgsNoP4 = false;
+					for (int Index = 0; Index < CommandInfo.Arguments.Count; ++Index)
+					{
+						if (CommandInfo.Arguments[Index] == "NoP4")
+						{ 
+							bArgsNoP4 = true;
+							break;
+						}
+					}
+					if (bArgsNoP4)
+					{
+						bRequireP4 = false;
+						bRequireCL = false;
+					}
+					else
+					{
+						var RequireP4Attributes = Command.GetCustomAttributes(typeof(RequireP4Attribute), false);
+						if (!CommandUtils.IsNullOrEmpty(RequireP4Attributes))
+						{
+							if (!GlobalCommandLine.P4)
+							{
+								LogWarning("Command {0} requires P4 functionality.", Command.Name);
+							}
+							bRequireP4 = true;
 
-[assembly: ComVisible( false )]
-[assembly: NeutralResourcesLanguageAttribute( "" )]
+							var DoesNotNeedP4CLAttributes = Command.GetCustomAttributes(typeof(DoesNotNeedP4CLAttribute), true);
+							if (CommandUtils.IsNullOrEmpty(DoesNotNeedP4CLAttributes))
+							{
+								bRequireCL = true;
+							}
+						}
+					}
+				}
+			}
 
-#if !SPECIFIC_VERSION
-// Automatically generate a version number based on the time of compilation
-[assembly: AssemblyVersion( "4.0.0.0" )]
-[assembly: AssemblyInformationalVersion("4.25.666-ByteCave")]
-#endif
+
+UpdateLocalVersion -Verbose -NoP4 -cl=666 -compatiblecl=666 Build=ByteCave
+MetaData.cs is now updated
 
 
 # UE4 Commands
