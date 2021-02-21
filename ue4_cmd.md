@@ -2,8 +2,13 @@
 Create a new engine version
 
 Build.version is the entry point to change the engine version
+AutomationToolLauncher is invoked with the BatchFiles included with the engine distro,
+listing all the command line options 
+```
+Binaries\DotNET>.. \ .. \Build\BatchFiles\RunUAT.bat -list 
+```
 
-Generally it must be P4 connected when updated the version
+Generally, to update a newer engine version, it must be P4 connected
 ```
 Binaries\DotNET>.. \ .. \Build\BatchFiles\RunUAT.bat UpdateLocalVersion
 ```
@@ -13,17 +18,18 @@ AutomationToolLauncher includes a NoP4 option, not implemented by Epic
 UpdateLocalVersion -Verbose -NoP4
 ```
 
-Two methods to avoid using P4 and support the -NoP4 command line option.
+We provide two methods to avoid using P4 and support the -NoP4 command line option.
 
 
 ## First method (debugging hack)
 * Automation.cs if (CommandUtils.P4Enabled) to false change it during runtime
-* Binaries\DotNET>.. \ .. \Build\BatchFiles\RunUAT.bat -list 
 
 * https://answers.unrealengine.com/questions/873535/automationtool-error-failed-to-delete-automationut.html
-* Engine\Source\Programs\DotNETCommon\MetaData.cs
-* UE4Build.cs line //CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, ChangelistNumber), false, false);
-// Copyright Epic Games, Inc. All Rights Reserved.
+* Engine\Source\Programs\DotNETCommon\MetaData.cs should reflect the version changes
+* One line comment in UE4Build.cs 
+```
+CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, ChangelistNumber), false, false);
+```
 
 
 ## Second method (completing code)
