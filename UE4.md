@@ -1,10 +1,10 @@
-Blueprint
+# Blueprint
 	// isaveg: when more than one ouput pin in blueprint is desired, use the *&
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	bool TraceForPhysicsBodies(AActor*& HitActor, UPrimitiveComponent*& HitComponent);
 
 
-UE4 binary distro
+# UE4 binary distro
 https://answers.unrealengine.com/questions/164423/where-to-inject-custom-engine-versioning.html
 Work only with engine in the github repo
 Pdbcopy.exe  dependency, install https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/
@@ -16,7 +16,7 @@ Must have installed exactly .NET 4.5.0
 
 
 
-UnrealEngine3/UDK - Deprecated 
+# UnrealEngine3/UDK - Deprecated 
 
 https://udn.epicgames.com/lists/showpost.php?id=62975&list=unprog3
 
@@ -28,7 +28,7 @@ https://udn.epicgames.com/Three/InstallationAndDistribution
 
 https://udn.epicgames.com/Three/BuildAndReleaseHome
 
-UnrealEngine4
+# UnrealEngine4
 
 Install
 https://www.unrealengine.com/en-US/ue4-on-github GitHub
@@ -79,7 +79,8 @@ https://www.unrealengine.com/en-US/resources Third party resource / Tutorials
 https://forums.unrealengine.com/unreal-engine/announcements-and-releases/2196-ue4-libraries-you-should-know-about?2064-UE4-Libraries-You-Should-Know-About!=&highlight=comment+overflow Libraries containers
 
 https://forums.unrealengine.com/development-discussion/content-creation/33788-tga-vs-png-for-textures?62848-TGA-vs-PNG-(for-textures)= TGA or PNG for textures
-Memory management
+
+# Memory management
 
 https://wiki.unrealengine.com/Garbage_Collection_%26_Dynamic_Memory_Allocation#Overview Garbage Collection & Dynamic Memory Allocation
 
@@ -87,7 +88,7 @@ https://forums.unrealengine.com/development-discussion/c-gameplay-programming/33
 
 https://www.unrealengine.com/en-US/blog/optimizing-tarray-usage-for-performance Array performance
 
-Editor
+# Editor
 
 https://wiki.unrealengine.com/Component_Visualizers Component Visualizers
 https://wiki.unrealengine.com/Customizing_detail_panels Customizing details panels
@@ -105,27 +106,28 @@ https://answers.unrealengine.com/questions/80010/cant-save-blueprint-referenced-
 https://www.youtube.com/watch?v=ITdXkenr6no&feature=youtu.be character & materials
 https://www.youtube.com/watch?v=VTc91YolRTI
 https://www.youtube.com/watch?v=jG0739vqV5U&feature=youtu.be
-Animation
+
+# Animation
 
 https://docs.unrealengine.com/latest/INT/Engine/Animation/RootMotion/index.html Root motion
 
 https://docs.unrealengine.com/latest/INT/Engine/Blueprints/UserGuide/EventDispatcher/index.html Event Dispatcher
 
 https://answers.unrealengine.com/questions/73533/how-to-design-a-generic-animbp-with-variable-anima.html Play random animation from a list
-Destructibles
+# Destructibles
 
 https://docs.unrealengine.com/latest/INT/Engine/Physics/Collision/Overview/index.html Collision Overview
 
 https://www.unrealengine.com/en-US/blog/collision-filtering Collision Filtering
 
-Navigation Mesh
+# Navigation Mesh
 
 https://answers.unrealengine.com/questions/49563/how-to-have-a-static-mesh-be-ignored-by-a-navmesh.html Static mesh be ignored by navmesh
 
 https://docs.unrealengine.com/latest/INT/Engine/Components/Navigation/ Navigation components
 
 
-Networking
+# Networking
 https://answers.unrealengine.com/questions/43178/how-do-you-create-a-server-clients-in-code-not-in.html Command line
 
 https://www.youtube.com/watch?v=ZsDRDAdtA9w Variable replication
@@ -144,7 +146,7 @@ https://answers.unrealengine.com/questions/89747/how-to-read-netprofile-and-stat
 
 
 Epic Launcher ContentExamples /  Network_Features tutorials
-Performance
+# Performance
 https://www.unrealengine.com/en-US/blog/how-to-improve-game-thread-cpu-performance CPU performance
 
 https://docs.unrealengine.com/latest/INT/Engine/Performance/CPU/index.html CPU profiling
@@ -161,13 +163,13 @@ https://indiebrothers.itch.io/ue4benchmark
 
 https://www.orfeasel.com/implementing-multithreading-in-ue4/ Multithreading
 
-P4
+# P4
 https://www.perforce.com/blog/streams-tiny-tutorial streams
 
 https://www.perforce.com/perforce/doc.current/manuals/p4v/Content/P4V/streams.task.html working with tasks streams
 
 
-Localization
+# Localization
 
 
 https://docs.unrealengine.com/latest/INT/Gameplay/Localization/Setup/index.html Setup
@@ -186,7 +188,7 @@ http://coherent-labs.com/using-the-unreal-engine-4-localization-with-coherent-ui
 
 
 
-AI
+# AI
 
 https://wiki.unrealengine.com/Blueprint_Behavior_Tree_Tutorial Behavior Tree
 
@@ -207,7 +209,7 @@ https://wiki.unrealengine.com/Compiling_For_Linux Compiling for Linux
 
 https://answers.unrealengine.com/questions/120642/how-to-setup-cross-compilation-toolchain-for-linux.html How to set up cross-compilation toolchain for linux packaging
 
-Cooking
+# Cooking
 
 https://docs.unrealengine.com/latest/INT/Engine/Deployment/Cooking/index.html Content cooking
 
@@ -222,11 +224,11 @@ https://udn.unrealengine.com/questions/196897/shorten-pathnames-when-cooking.htm
 
 https://udn.unrealengine.com/questions/267420/whenhow-can-we-guarantee-the-use-of-cooked-content.html# When can we guarantee the use of cooked content
 
-Collision
+# Collision
 https://www.unrealengine.com/en-US/blog/collision-filtering?sessionInvalidated=true
 
 
-Visual Studio
+# Visual Studio
 // Intellisense cpp.hint file
 //
 https://msdn.microsoft.com/en-us/library/dd997977.aspx
