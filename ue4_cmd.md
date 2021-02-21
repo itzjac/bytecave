@@ -1,9 +1,9 @@
 # Sections
-## [UE4 Commands](#UE4-Commands)
-## [UE4 new engine version without P4](#UE4-noP4)
-## [UE4 Binary Distro](#UE4-Binary-Distro)
-## [UE4 Build System](#UE4-Build-System)
-## [Uncooked Builds Execution](#Uncooked-Builds-Execution)
+[UE4 Commands](#UE4-Commands)
+[UE4 new engine version without P4](#UE4-noP4)
+[UE4 Binary Distro](#UE4-Binary-Distro)
+[UE4 Build System](#UE4-Build-System)
+[Uncooked Builds Execution](#Uncooked-Builds-Execution)
 
 
 # UE4-noP4
