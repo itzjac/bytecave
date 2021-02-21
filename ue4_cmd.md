@@ -17,19 +17,19 @@ AutomationToolLauncher UpdateLocalVersion -Verbose -NoP4
 
 
 * Second approach Automation.cs with NoP4 support
-
-	// Enable or disable P4 support
-			if (!GlobalCommandLine.NoP4)
-			{
-				CommandUtils.InitP4Support(CommandsToExecute, ScriptCompiler.Commands);
-				if (CommandUtils.P4Enabled)
-				{
-					Log.TraceLog("Setting up Perforce environment.");
-					CommandUtils.InitP4Environment();
-					CommandUtils.InitDefaultP4Connection();
-				}
-			}
-			
+`
+// Enable or disable P4 support
+if (!GlobalCommandLine.NoP4)
+{
+	CommandUtils.InitP4Support(CommandsToExecute, ScriptCompiler.Commands);
+	if (CommandUtils.P4Enabled)
+	{
+		Log.TraceLog("Setting up Perforce environment.");
+		CommandUtils.InitP4Environment();
+		CommandUtils.InitDefaultP4Connection();
+	}
+}
+`			
 * UE4Build.cs with NoP4 support
 
     public List<FileReference> UpdateVersionFiles(bool ActuallyUpdateVersionFiles = true, int? ChangelistNumberOverride = null, int? CompatibleChangelistNumberOverride = null, string Build = null, bool? IsPromotedOverride = null)
