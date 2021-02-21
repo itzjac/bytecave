@@ -3,6 +3,8 @@
 
 [UE4 new engine version without P4](#UE4-noP4)
 
+[UE4 Common Pitfalls when creating a new version](#Common-Pitfalls)
+
 [UE4 Binary Distro](#UE4-Binary-Distro)
 
 [UE4 Build System](#UE4-Build-System)
@@ -98,11 +100,6 @@ CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, Changelis
 
 5. Both methods Engine\Source\Programs\DotNETCommon\MetaData.cs should reflect the version changes
 
-# Common pitfalls
-* mcrolib.dll , a .NET file, apparently related to the -compile option for RunUAT.bat
- * https://answers.unrealengine.com/questions/873535/automationtool-error-failed-to-delete-automationut.html
- * https://stackoverflow.com/questions/37960616/exception-thrown-system-exception-in-mscorlib-ni-dll-on-uwp-app-start 
- 
 ## Launching UE4 with newer Build.version file
 
 >Creating makefile for UE4Editor (Build.version is newer)
@@ -113,6 +110,12 @@ to get full patch version
 const FText Version = FText::FromString( FEngineVersion::Current().ToString()); 
 ```
 
+
+# Common-Pitfalls
+* mcrolib.dll , a .NET file, apparently related to the -compile option for RunUAT.bat
+ * https://answers.unrealengine.com/questions/873535/automationtool-error-failed-to-delete-automationut.html
+ * https://stackoverflow.com/questions/37960616/exception-thrown-system-exception-in-mscorlib-ni-dll-on-uwp-app-start 
+ 
 # UE4-Binary-Distro
 Deploy a custom engine version for artists or machine without VStudio
 
