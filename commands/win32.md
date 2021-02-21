@@ -1,8 +1,11 @@
-# Run
+# WIN+R
 * dxdiag
 * service.msc
 * regedit
 * iexplorer
+
+# ".emacs" 
+* rn .emacs.txt .emacs
 
 
 ## Strip out pdbs
