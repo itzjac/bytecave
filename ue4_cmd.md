@@ -57,7 +57,7 @@ AutomationToolLauncher UpdateLocalVersion -Verbose -NoP4
 			return StaticUpdateVersionFiles(ChangelistNumber, CompatibleChangelistNumber, Branch, Build, bIsLicenseeVersion, bIsPromotedBuild, bDoUpdateVersionFiles, ParseParam("NoP4"));
 		}
 		
-** All occurrencies
+	* All occurrencies
 if(!NoP4 && CommandUtils.P4Enabled && ChangelistNumber > 0)
 			{
 				CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, ChangelistNumber), false, false);
