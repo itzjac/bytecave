@@ -1,8 +1,10 @@
 # Sections
 ## [UE4 Commands](#UE4-Commands)
 ## [UE4 new engine version without P4](#UE4-noP4)
-## [UE4 Build System (#UE4-Build-System)
+## [UE4 Binary Distro](#UE4-Binary-Distro)
+## [UE4 Build System](#UE4-Build-System)
 ## [Uncooked Builds Execution](#Uncooked-Builds-Execution)
+
 
 # UE4-noP4
 Create a new engine version
@@ -96,7 +98,7 @@ CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, Changelis
  * https://answers.unrealengine.com/questions/873535/automationtool-error-failed-to-delete-automationut.html
  * https://stackoverflow.com/questions/37960616/exception-thrown-system-exception-in-mscorlib-ni-dll-on-uwp-app-start 
  
-# Launching UE4 with newer Build.version file
+## Launching UE4 with newer Build.version file
 
 >Creating makefile for UE4Editor (Build.version is newer)
 
@@ -106,7 +108,7 @@ to get full patch version
 const FText Version = FText::FromString( FEngineVersion::Current().ToString()); 
 ```
 
-# UE4 binary distro
+# UE4-Binary-Distro
 Deploy a custom engine version for artists or machine without VStudio
 
 ## Requirements
