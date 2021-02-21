@@ -4,6 +4,10 @@
 
 
 # UE4 new engine version
+AutomationToolLauncher UpdateLocalVersion -Verbose -NoP4
+Automation.cs if (CommandUtils.P4Enabled) to false change it during runtime, 
+
+
 * Build\BatchFiles\RunUAT.bat -list 
 * Binaries\DotNET>.. \ .. \Build\BatchFiles\RunUAT.bat UpdateLocalVersion (must be P4 connected)
 * https://answers.unrealengine.com/questions/873535/automationtool-error-failed-to-delete-automationut.html
