@@ -96,14 +96,14 @@ CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, Changelis
 }
 ```	
 4. Command line
- * Will use Build.version values
+ * Default use Build.version
 ```
 .\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion -Verbose -NoP4
 ```
 
- * Optionally include cl, compatiblecl, Build, and Branch options manually
+ * Override Build.version include cl, compatiblecl, Build, and Branch options
 ```
-.\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion -Verbose -NoP4 -cl=666 -compatiblecl=666 -Build=ByteCave666
+.\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion -Verbose -NoP4 -cl=666 -compatiblecl=666 -Build=ByteCave666 -Branch=ByteCave666Branch
 ```
 
 5. Both methods Engine\Source\Programs\DotNETCommon\MetaData.cs should reflect the version changes
