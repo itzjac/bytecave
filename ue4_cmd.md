@@ -33,28 +33,28 @@ AutomationToolLauncher UpdateLocalVersion -Verbose -NoP4
 * UE4Build.cs with NoP4 support
 
     public List<FileReference> UpdateVersionFiles(bool ActuallyUpdateVersionFiles = true, int? ChangelistNumberOverride = null, int? CompatibleChangelistNumberOverride = null, string Build = null, bool? IsPromotedOverride = null)
+	{
+		bool bIsLicenseeVersion = ParseParam("Licensee") || !FileReference.Exists(FileReference.Combine(CommandUtils.EngineDirectory, "Build", "NotForLicensees", "EpicInternal.txt"));
+		bool bIsPromotedBuild = IsPromotedOverride.HasValue? IsPromotedOverride.Value : (ParseParamInt("Promoted", 1) != 0);
+		bool bDoUpdateVersionFiles = ParseParam("NoP4") ? true : CommandUtils.P4Enabled && ActuallyUpdateVersionFiles;		
+		int ChangelistNumber = 0;
+		if (bDoUpdateVersionFiles)
 		{
-			bool bIsLicenseeVersion = ParseParam("Licensee") || !FileReference.Exists(FileReference.Combine(CommandUtils.EngineDirectory, "Build", "NotForLicensees", "EpicInternal.txt"));
-			bool bIsPromotedBuild = IsPromotedOverride.HasValue? IsPromotedOverride.Value : (ParseParamInt("Promoted", 1) != 0);
-			bool bDoUpdateVersionFiles = ParseParam("NoP4") ? true : CommandUtils.P4Enabled && ActuallyUpdateVersionFiles;		
-			int ChangelistNumber = 0;
-			if (bDoUpdateVersionFiles)
-			{
-				ChangelistNumber = ChangelistNumberOverride.HasValue? ChangelistNumberOverride.Value : CommandUtils.P4Env.Changelist;
-			}
-			int CompatibleChangelistNumber = 0;
-			if(bDoUpdateVersionFiles && CompatibleChangelistNumberOverride.HasValue)
-			{
-				CompatibleChangelistNumber = CompatibleChangelistNumberOverride.Value;
-			}
-			string Branch = OwnerCommand.ParseParamValue("Branch");
-			if (String.IsNullOrEmpty(Branch))
-			{
-				Branch = ParseParam("NoP4") ? ParseParamValue("Branch") : (CommandUtils.P4Enabled ? CommandUtils.EscapePath(CommandUtils.P4Env.Branch) : "");
-			}
-			return StaticUpdateVersionFiles(ChangelistNumber, CompatibleChangelistNumber, Branch, Build, bIsLicenseeVersion, bIsPromotedBuild, bDoUpdateVersionFiles, ParseParam("NoP4"));
+			ChangelistNumber = ChangelistNumberOverride.HasValue? ChangelistNumberOverride.Value : CommandUtils.P4Env.Changelist;
 		}
-	
+		int CompatibleChangelistNumber = 0;
+		if(bDoUpdateVersionFiles && CompatibleChangelistNumberOverride.HasValue)
+		{
+			CompatibleChangelistNumber = CompatibleChangelistNumberOverride.Value;
+		}
+		string Branch = OwnerCommand.ParseParamValue("Branch");
+		if (String.IsNullOrEmpty(Branch))
+		{
+			Branch = ParseParam("NoP4") ? ParseParamValue("Branch") : (CommandUtils.P4Enabled ? CommandUtils.EscapePath(CommandUtils.P4Env.Branch) : "");
+		}
+		return StaticUpdateVersionFiles(ChangelistNumber, CompatibleChangelistNumber, Branch, Build, bIsLicenseeVersion, bIsPromotedBuild, bDoUpdateVersionFiles, ParseParam("NoP4"));
+	}
+
 		
 		
 * All occurrencies
