@@ -95,7 +95,13 @@ if(!NoP4 && CommandUtils.P4Enabled && ChangelistNumber > 0)
 CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, ChangelistNumber), false, false);
 }
 ```	
-4. Command line must include cl, compatiblecl, Build, and Branch options to exit success
+4. Command line
+ * Will use Build.version values
+```
+.\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion -Verbose -NoP4
+```
+
+ * Optionally include cl, compatiblecl, Build, and Branch options manually
 ```
 .\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion -Verbose -NoP4 -cl=666 -compatiblecl=666 -Build=ByteCave666
 ```
