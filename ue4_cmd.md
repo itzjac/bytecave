@@ -1,18 +1,14 @@
-# UE4 binary distro
-* AutomationTool BuildGraph -target="Make Installed Build Win64" -script=Engine/Build/BARBBuildDistro.xml -clean
-* UnrealVersionSelector.exe /fileassociations
-
-
 # UE4 new engine version without P4
+Create a new engine version
+
 Build.version is the entry point to change the engine version
 
 AutomationToolLauncher UpdateLocalVersion -Verbose -NoP4
 -NoP4 doesn't work out of the box
 
-* First approach hack, Automation.cs if (CommandUtils.P4Enabled) to false change it during runtime
-
-
-* Build\BatchFiles\RunUAT.bat -list 
+* First approach debugging hack, Automation.cs if (CommandUtils.P4Enabled) to false change it during runtime
+* 
+* Binaries\DotNET>.. \ .. \Build\BatchFiles\RunUAT.bat -list 
 * Binaries\DotNET>.. \ .. \Build\BatchFiles\RunUAT.bat UpdateLocalVersion (must be P4 connected)
 * https://answers.unrealengine.com/questions/873535/automationtool-error-failed-to-delete-automationut.html
 * Engine\Source\Programs\DotNETCommon\MetaData.cs
@@ -20,52 +16,52 @@ AutomationToolLauncher UpdateLocalVersion -Verbose -NoP4
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 
-* Second approach P4Utils.cs with NoP4 support
-private static void CheckIfCommandsRequireP4(List<CommandInfo> CommandsToExecute, Dictionary<string, Type> Commands, out bool bRequireP4, out bool bRequireCL)
-		{
-			bRequireP4 = false;
-			bRequireCL = false;
+* Second approach Automation.cs with NoP4 support
 
-			foreach (var CommandInfo in CommandsToExecute)
+	// Enable or disable P4 support
+			if (!GlobalCommandLine.NoP4)
 			{
-				Type Command;
-				if (Commands.TryGetValue(CommandInfo.CommandName, out Command))
+				CommandUtils.InitP4Support(CommandsToExecute, ScriptCompiler.Commands);
+				if (CommandUtils.P4Enabled)
 				{
-					bool bArgsNoP4 = false;
-					for (int Index = 0; Index < CommandInfo.Arguments.Count; ++Index)
-					{
-						if (CommandInfo.Arguments[Index] == "NoP4")
-						{ 
-							bArgsNoP4 = true;
-							break;
-						}
-					}
-					if (bArgsNoP4)
-					{
-						bRequireP4 = false;
-						bRequireCL = false;
-					}
-					else
-					{
-						var RequireP4Attributes = Command.GetCustomAttributes(typeof(RequireP4Attribute), false);
-						if (!CommandUtils.IsNullOrEmpty(RequireP4Attributes))
-						{
-							if (!GlobalCommandLine.P4)
-							{
-								LogWarning("Command {0} requires P4 functionality.", Command.Name);
-							}
-							bRequireP4 = true;
-
-							var DoesNotNeedP4CLAttributes = Command.GetCustomAttributes(typeof(DoesNotNeedP4CLAttribute), true);
-							if (CommandUtils.IsNullOrEmpty(DoesNotNeedP4CLAttributes))
-							{
-								bRequireCL = true;
-							}
-						}
-					}
+					Log.TraceLog("Setting up Perforce environment.");
+					CommandUtils.InitP4Environment();
+					CommandUtils.InitDefaultP4Connection();
 				}
 			}
+			
+* UE4Build.cs with NoP4 support
 
+	public List<FileReference> UpdateVersionFiles(bool ActuallyUpdateVersionFiles = true, int? ChangelistNumberOverride = null, int? CompatibleChangelistNumberOverride = null, string Build = null, bool? IsPromotedOverride = null)
+		{
+			bool bIsLicenseeVersion = ParseParam("Licensee") || !FileReference.Exists(FileReference.Combine(CommandUtils.EngineDirectory, "Build", "NotForLicensees", "EpicInternal.txt"));
+			bool bIsPromotedBuild = IsPromotedOverride.HasValue? IsPromotedOverride.Value : (ParseParamInt("Promoted", 1) != 0);
+			bool bDoUpdateVersionFiles = ParseParam("NoP4") ? true : CommandUtils.P4Enabled && ActuallyUpdateVersionFiles;		
+			int ChangelistNumber = 0;
+			if (bDoUpdateVersionFiles)
+			{
+				ChangelistNumber = ChangelistNumberOverride.HasValue? ChangelistNumberOverride.Value : CommandUtils.P4Env.Changelist;
+			}
+			int CompatibleChangelistNumber = 0;
+			if(bDoUpdateVersionFiles && CompatibleChangelistNumberOverride.HasValue)
+			{
+				CompatibleChangelistNumber = CompatibleChangelistNumberOverride.Value;
+			}
+
+			string Branch = OwnerCommand.ParseParamValue("Branch");
+			if (String.IsNullOrEmpty(Branch))
+			{
+				Branch = ParseParam("NoP4") ? ParseParamValue("Branch") : (CommandUtils.P4Enabled ? CommandUtils.EscapePath(CommandUtils.P4Env.Branch) : "");
+			}
+
+			return StaticUpdateVersionFiles(ChangelistNumber, CompatibleChangelistNumber, Branch, Build, bIsLicenseeVersion, bIsPromotedBuild, bDoUpdateVersionFiles, ParseParam("NoP4"));
+		}
+		
+** All occurrencies
+if(!NoP4 && CommandUtils.P4Enabled && ChangelistNumber > 0)
+			{
+				CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, ChangelistNumber), false, false);
+			}
 
 UE4Build.cs
 bool bDoUpdateVersionFiles = /*CommandUtils.P4Enabled &&*/ ActuallyUpdateVersionFiles;		
@@ -81,6 +77,11 @@ When launching UE4
 Splash window 
 to get full patch version
 const FText Version = FText::FromString( FEngineVersion::Current().ToString()); 
+
+# UE4 binary distro
+Deploy a custom engine version for artists or machine without VStudio
+* AutomationTool BuildGraph -target="Make Installed Build Win64" -script=Engine/Build/BARBBuildDistro.xml -clean
+* UnrealVersionSelector.exe /fileassociations
 
 # UE4 Commands
 * Netprofile enable
