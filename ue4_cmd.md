@@ -67,9 +67,16 @@ private static void CheckIfCommandsRequireP4(List<CommandInfo> CommandsToExecute
 			}
 
 
-UpdateLocalVersion -Verbose -NoP4 -cl=666 -compatiblecl=666 Build=ByteCave
-MetaData.cs is now updated
+UE4Build.cs
+bool bDoUpdateVersionFiles = /*CommandUtils.P4Enabled &&*/ ActuallyUpdateVersionFiles;		
 
+
+.\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion -Verbose -NoP4 -cl=666 -compatiblecl=666 -Build=ByteCave666
+MetaData.cs is now updated accordingly
+
+When launching UE4
+
+>Creating makefile for UE4Editor (Build.version is newer)
 
 # UE4 Commands
 * Netprofile enable
