@@ -23,9 +23,6 @@ We provide two methods to avoid using P4 and support the -NoP4 command line opti
 
 ## First method (debugging hack)
 * Automation.cs if (CommandUtils.P4Enabled) to false change it during runtime
-
-* https://answers.unrealengine.com/questions/873535/automationtool-error-failed-to-delete-automationut.html
-* Engine\Source\Programs\DotNETCommon\MetaData.cs should reflect the version changes
 * One line comment in UE4Build.cs 
 ```
 CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, ChangelistNumber), false, false);
@@ -84,8 +81,14 @@ CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, Changelis
 ```
 .\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion -Verbose -NoP4 -cl=666 -compatiblecl=666 -Build=ByteCave666
 ```
- * MetaData.cs is now updated accordingly
 
+5. Both methods Engine\Source\Programs\DotNETCommon\MetaData.cs should reflect the version changes
+
+# Common pitfall when generating a new engine version
+* mcrolib.dll , a .NET file, apparently related to the -compile option 
+ * https://answers.unrealengine.com/questions/873535/automationtool-error-failed-to-delete-automationut.html
+ * https://stackoverflow.com/questions/37960616/exception-thrown-system-exception-in-mscorlib-ni-dll-on-uwp-app-start 
+ 
 # Launching UE4 with newer Build.version file
 
 >Creating makefile for UE4Editor (Build.version is newer)
@@ -96,6 +99,13 @@ const FText Version = FText::FromString( FEngineVersion::Current().ToString());
 
 # UE4 binary distro
 Deploy a custom engine version for artists or machine without VStudio
+
+## Requirements
+* PDBCOPY.EXE https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/
+* Must have installed exactly .NET 4.5.0 (from VStudio)
+* https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/
+ 
+## Pipeline
 * AutomationTool BuildGraph -target="Make Installed Build Win64" -script=Engine/Build/BARBBuildDistro.xml -clean
 * UnrealVersionSelector.exe /fileassociations
 
