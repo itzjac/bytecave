@@ -79,15 +79,12 @@ if(!NoP4 && CommandUtils.P4Enabled && ChangelistNumber > 0)
 {
 CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, ChangelistNumber), false, false);
 }
-```
-UE4Build.cs
-bool bDoUpdateVersionFiles = /*CommandUtils.P4Enabled &&*/ ActuallyUpdateVersionFiles;		
-
-
+```	
+4. Command line must include cl, compatiblecl, Build, and Branch options to exit success
 .\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion -Verbose -NoP4 -cl=666 -compatiblecl=666 -Build=ByteCave666
-MetaData.cs is now updated accordingly
+  * MetaData.cs is now updated accordingly
 
-When launching UE4
+# Launching UE4 with newer Build.version file
 
 >Creating makefile for UE4Editor (Build.version is newer)
 
