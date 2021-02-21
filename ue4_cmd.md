@@ -106,7 +106,6 @@ Deploy a custom engine version for artists or machine without VStudio
 ## Requirements
 * PDBCOPY.EXE https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/
 * Must have installed exactly .NET 4.5.0 (from VStudio)
-* https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/
  
 ## Pipeline
 * AutomationTool BuildGraph -target="Make Installed Build Win64" -script=Engine/Build/BARBBuildDistro.xml -clean
