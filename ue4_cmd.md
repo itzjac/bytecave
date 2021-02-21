@@ -1,9 +1,10 @@
 # UE4 new engine version without P4
 Create a new engine version
 
-Build.version is the entry point to change the engine version
+Build.version is the entry point to change the engine version.
+
 AutomationToolLauncher is invoked with the BatchFiles included with the engine distro,
-listing all the command line options 
+verify listing all the command line options 
 ```
 Binaries\DotNET>.. \ .. \Build\BatchFiles\RunUAT.bat -list 
 ```
