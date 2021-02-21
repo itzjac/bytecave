@@ -6,8 +6,8 @@ Build.version is the entry point to change the engine version
 AutomationToolLauncher UpdateLocalVersion -Verbose -NoP4
 -NoP4 doesn't work out of the box
 
-* First approach debugging hack, Automation.cs if (CommandUtils.P4Enabled) to false change it during runtime
-* 
+## First approach (debugging hack)
+* Automation.cs if (CommandUtils.P4Enabled) to false change it during runtime
 * Binaries\DotNET>.. \ .. \Build\BatchFiles\RunUAT.bat -list 
 * Binaries\DotNET>.. \ .. \Build\BatchFiles\RunUAT.bat UpdateLocalVersion (must be P4 connected)
 * https://answers.unrealengine.com/questions/873535/automationtool-error-failed-to-delete-automationut.html
@@ -16,7 +16,8 @@ AutomationToolLauncher UpdateLocalVersion -Verbose -NoP4
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 
-* Second approach Automation.cs with NoP4 support
+## Second approach (completing code)
+1. Automation.cs extend NoP4 support
 ```
 // Enable or disable P4 support
 if (!GlobalCommandLine.NoP4)
@@ -30,7 +31,7 @@ if (!GlobalCommandLine.NoP4)
 	}
 }
 ```		
-* UE4Build.cs with NoP4 support
+2. UE4Build.cs with NoP4 support
 ```
 public List<FileReference> UpdateVersionFiles(bool ActuallyUpdateVersionFiles = true, int? ChangelistNumberOverride = null, int? CompatibleChangelistNumberOverride = null, string Build = null, bool? IsPromotedOverride = null)
 {
@@ -56,7 +57,7 @@ public List<FileReference> UpdateVersionFiles(bool ActuallyUpdateVersionFiles = 
 }
 ```		
 		
-* All occurrencies
+3. Validate all occurrencies in UE4Build.cs
 ```
 if(!NoP4 && CommandUtils.P4Enabled && ChangelistNumber > 0)
 {
