@@ -108,7 +108,7 @@ Deploy a custom engine version for artists or machine without VStudio
 * Must have installed exactly .NET 4.5.0 (from VStudio)
  
 ## Pipeline
-* AutomationTool BuildGraph -target="Make Installed Build Win64" -script=Engine/Build/BARBBuildDistro.xml -clean
+* AutomationTool BuildGraph -target="Make Installed Build Win64" -script=Engine/Build/ByteCaveBuildDistro.xml -clean
 * UnrealVersionSelector.exe /fileassociations
 
 # UE4 Commands
