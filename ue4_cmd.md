@@ -3,7 +3,7 @@
 * UnrealVersionSelector.exe /fileassociations
 
 
-# UE4 new engine version
+# UE4 new engine version without P4
 Build.version is the entry point to change the engine version
 
 AutomationToolLauncher UpdateLocalVersion -Verbose -NoP4
@@ -77,6 +77,10 @@ MetaData.cs is now updated accordingly
 When launching UE4
 
 >Creating makefile for UE4Editor (Build.version is newer)
+
+Splash window 
+to get full patch version
+const FText Version = FText::FromString( FEngineVersion::Current().ToString()); 
 
 # UE4 Commands
 * Netprofile enable
