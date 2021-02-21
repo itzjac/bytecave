@@ -3,20 +3,30 @@ Create a new engine version
 
 Build.version is the entry point to change the engine version
 
-AutomationToolLauncher UpdateLocalVersion -Verbose -NoP4
--NoP4 doesn't work out of the box
+Generally it must be P4 connected when updated the version
+```
+Binaries\DotNET>.. \ .. \Build\BatchFiles\RunUAT.bat UpdateLocalVersion
+```
 
-## First approach (debugging hack)
+AutomationToolLauncher includes a NoP4 option, not implemented by Epic
+```
+UpdateLocalVersion -Verbose -NoP4
+```
+
+Two methods to avoid using P4 and support the -NoP4 command line option.
+
+
+## First method (debugging hack)
 * Automation.cs if (CommandUtils.P4Enabled) to false change it during runtime
 * Binaries\DotNET>.. \ .. \Build\BatchFiles\RunUAT.bat -list 
-* Binaries\DotNET>.. \ .. \Build\BatchFiles\RunUAT.bat UpdateLocalVersion (must be P4 connected)
+
 * https://answers.unrealengine.com/questions/873535/automationtool-error-failed-to-delete-automationut.html
 * Engine\Source\Programs\DotNETCommon\MetaData.cs
 * UE4Build.cs line //CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, ChangelistNumber), false, false);
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 
-## Second approach (completing code)
+## Second method (completing code)
 1. Automation.cs extend NoP4 support
 ```
 // Enable or disable P4 support
