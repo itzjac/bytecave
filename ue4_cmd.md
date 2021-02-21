@@ -85,8 +85,8 @@ CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, Changelis
 
 5. Both methods Engine\Source\Programs\DotNETCommon\MetaData.cs should reflect the version changes
 
-# Common pitfall when generating a new engine version
-* mcrolib.dll , a .NET file, apparently related to the -compile option 
+# Common pitfalls
+* mcrolib.dll , a .NET file, apparently related to the -compile option for RunUAT.bat
  * https://answers.unrealengine.com/questions/873535/automationtool-error-failed-to-delete-automationut.html
  * https://stackoverflow.com/questions/37960616/exception-thrown-system-exception-in-mscorlib-ni-dll-on-uwp-app-start 
  
@@ -94,9 +94,11 @@ CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, Changelis
 
 >Creating makefile for UE4Editor (Build.version is newer)
 
-Splash window 
+Splash window is wrong! (again P4 validated)
 to get full patch version
+```
 const FText Version = FText::FromString( FEngineVersion::Current().ToString()); 
+```
 
 # UE4 binary distro
 Deploy a custom engine version for artists or machine without VStudio
