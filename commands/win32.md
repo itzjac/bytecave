@@ -4,7 +4,7 @@
 * regedit
 * iexplorer
 
-# ".emacs" 
+## ".emacs" 
 * rn .emacs.txt .emacs
 
 
