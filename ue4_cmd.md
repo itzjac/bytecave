@@ -81,7 +81,9 @@ CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, Changelis
 }
 ```	
 4. Command line must include cl, compatiblecl, Build, and Branch options to exit success
+```
 .\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion -Verbose -NoP4 -cl=666 -compatiblecl=666 -Build=ByteCave666
+```
  * MetaData.cs is now updated accordingly
 
 # Launching UE4 with newer Build.version file
