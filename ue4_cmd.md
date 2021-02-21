@@ -31,7 +31,7 @@ CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, Changelis
 
 
 ## Second method (completing code)
-1. Automation.cs extend NoP4 support
+1. Automation.cs implements NoP4 support
 ```
 // Enable or disable P4 support
 if (!GlobalCommandLine.NoP4)
@@ -45,7 +45,7 @@ if (!GlobalCommandLine.NoP4)
 	}
 }
 ```		
-2. UE4Build.cs with NoP4 support
+2. UE4Build.cs implements NoP4 support
 ```
 public List<FileReference> UpdateVersionFiles(bool ActuallyUpdateVersionFiles = true, int? ChangelistNumberOverride = null, int? CompatibleChangelistNumberOverride = null, string Build = null, bool? IsPromotedOverride = null)
 {
@@ -71,7 +71,7 @@ public List<FileReference> UpdateVersionFiles(bool ActuallyUpdateVersionFiles = 
 }
 ```		
 		
-3. Validate all occurrencies in UE4Build.cs
+3. Implement NoP4 validation for all the occurrencies in UE4Build.cs
 ```
 if(!NoP4 && CommandUtils.P4Enabled && ChangelistNumber > 0)
 {
