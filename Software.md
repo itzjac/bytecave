@@ -1,1 +1,116 @@
+[Audio](#Audio)
+[Batch Scripting Windows](#BatchScriptWin32)
+[Editors](#Editors)
+[Emulators](#Emulators)
+[File manip](#FileManip)
+[Hardware](#Hardware)
+[Installers](#Installer)
+[Maths](#Maths)
+[Programming](#Programming)
+[Python](#Python)
+[Runtime](#Runtime)
+[Video](#Video)
+[Web Development IDE](#WebDev)
+[Windows](#Windows)
 
+# Audio
+* winLAME  Encoder for audio formats  https://winlame.sourceforge.io/
+* Audacity Multi track audio editor https://www.audacityteam.org/
+* LAME MP3 Enconder  MP3 encoder for Audacity  https://manual.audacityteam.org/man/faq_installing_the_lame_mp3_encoder.html
+* GoldWave  https://www.goldwave.com/
+* Screamer Radio https://www.screamer-radio.com/
+* Tune In Station https://tunein.com/
+* LAMe encoder  http://www.free-codecs.com/download/razorlame.htm
+ 
+# BatchScriptingWindows
+* BATS https://www.tutorialspoint.com/batch_script/index.htm
+* https://ss64.com/nt/
+* https://ss64.com/nt/findstr.html
+
+# Editors
+* emacs https://www.gnu.org/software/emacs/
+* Sublime https://www.sublimetext.com/
+* ConText http://www.contexteditor.org/index.php
+* Hexplorer https://sourceforge.net/projects/hexplorer/
+
+# Emulators
+* N64 https://www.pj64-emu.com/
+* Multi Purpose Emulation Framework https://www.mamedev.org/
+
+# FileManip
+* locate32 https://locate32.cogit.net/
+* CloneDVD https://www.elby.ch/en/products/clonedvd.html
+* WinDirStat https://windirstat.net/
+* Alcohol Software, burner https://www.alcohol-soft.com/
+* john179w2 password ripper https://www.openwall.com/john/
+* KeyFinder Magical Jelly Bean https://www.magicaljellybean.com/keyfinder/
+
+# Installers
+* Rufus https://rufus.ie/en_IE.html
+* Universal USB Installer https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
+* HP USB disk storage https://hp-usb-disk-storage-format-tool.en.softonic.com/
+* UNet bootin https://sourceforge.net/projects/unetbootin/
+
+# Hardware
+* GPU Z https://www.techpowerup.com/gpuz/
+* CPU Z https://www.cpuid.com/softwares/cpu-z.html
+* Switch vs Router https://fossbytes.com/switch-vs-router-difference-comparison/
+
+
+# Maths
+* Ploting Graphs https://www.transum.org/Maths/Activity/Graph/Desmos.asp
+
+# Programming
+* gDebugger https://www.opengl.org/sdk/tools/gDEBugger/
+* cMake https://cmake.org/
+* glViewer (Extension Viewer) http://realtech-vr.com/admin/glview
+* PhysX https://www.geforce.com/hardware/technology/physx
+* Nullsoft Scriptable Install Library http://nsis.sourceforge.net/Main_Page
+* Editor for NSIS http://hmne.sourceforge.net/
+* NShader, syntax highlighting for IDE's https://marketplace.visualstudio.com/items?itemName=AlexandreMutel.NShader
+* nFringe UnrealScript (UE3) http://pixelminegames.com/nfringe/
+* RockScroll https://www.hanselman.com/blog/IntroducingRockScroll.aspx
+* RenderDoc https://renderdoc.org/
+* UV Mapper http://www.uvmapper.com/
+* DirectX Ray Tracing https://blogs.msdn.microsoft.com/directx/2018/03/19/announcing-microsoft-directx-raytracing/
+* GL transmission format https://github.com/KhronosGroup/glTF
+* RTX Direct Illumination https://developer.nvidia.com/rtxdi
+* Memory leaker tool https://www.deleaker.com/
+* UnitTest C/C++ http://www.throwtheswitch.org/unity
+* UnitTest C/C++ https://cpputest.github.io/
+* C/C++ IDE https://4coder.handmade.network/
+
+* Network, C++ https://beej.us/
+
+# Python
+* Mat plot like Matlab for Python https://sourceforge.net/projects/matplotlib/files/matplotlib/matplotlib-1.0.1/
+* Number support https://sourceforge.net/projects/numpy/
+
+# Runtime
+* Dependency Walker enhaced https://lucasg.github.io/Dependencies/
+* Old Dependency Walker http://www.dependencywalker.com/
+* Process Explorer http://www.pe-explorer.com/peexplorer-tour-function-view.htm
+* EXE Explorer https://www.mitec.cz/exe.html
+* Debug View https://docs.microsoft.com/en-us/sysinternals/downloads/debugview
+
+# Video
+* Wink20 Record tutorial software http://www.debugmode.com/wink/download.htm
+* BSR http://www.bsrsoft.com/downloadbsr.asp
+* CamStudio Desktop Recorder https://camstudio.org/
+* Xilisoft Video Converter http://www.xilisoft.com/video-converter.html
+* AVS Video Converter https://www.avs4you.com/avs-video-converter.aspx
+* Any Video Converter https://www.any-video-converter.com/products/for_video_free/
+* ColorCop http://colorcop.net/download/
+* Capture images like GIF http://blog.bahraniapps.com/gifcam/
+* Adobe Flash Professional Last known version CC 13.1.0.226  https://www.adobe.com/gr_en/products/flash/features.html
+* Easy2Convert http://www.easy2convert.com/ Batch image converter
+
+# WebDev
+* http://www.aptana.com/index.html
+* https://developers.google.com/web/tools/chrome-devtools/
+
+# Windows
+* Windows Loader v2.1.7 By DAZ + WAT Fix.waqarr
+* Windows7-USB-DVD-tool https://www.microsoft.com/en-us/download/windows-usb-dvd-download-tool
+* RogueKiller Anti Malware https://www.adlice.com/download/roguekiller/
+* TuneUp Utilities https://www.avg.com/en-ww/tuneup-utilities
