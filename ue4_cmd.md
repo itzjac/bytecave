@@ -96,7 +96,7 @@ CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, Changelis
 }
 ```	
 4. Command line
- * Default use Build.version
+ * Default use Build.version, BE AWARE it won't update MetaData.cs because it expects a P4 connection
 ```
 .\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion -Verbose -NoP4
 ```
