@@ -1,6 +1,10 @@
-[create an anchor](#UE4-Commands)
+# Sections
+## [UE4 Commands](#UE4-Commands)
+## [UE4 new engine version without P4](#UE4-noP4)
+## [UE4 Build System (#UE4-Build-System)
+## [Uncooked Builds Execution](#Uncooked-Builds-Execution)
 
-# UE4 new engine version without P4
+# UE4-noP4
 Create a new engine version
 
 Build.version is the entry point to change the engine version.
@@ -136,7 +140,7 @@ Deploy a custom engine version for artists or machine without VStudio
 * p.netshowcorrections 1
 * t.Max FPS 30
 
-# UE4 Build system
+# UE4-Build-System
 https://docs.unrealengine.com/latest/INT/Programming/UnrealBuildSystem/Configuration/index.html Unreal Build System
 
 
@@ -148,7 +152,7 @@ UnrealEngine-4.16\Engine\Saved\UnrealBuildTool\BuildConfiguration.xml
 Command line -noxge
 
 
-# Uncooked builds execution
+# Uncooked-Builds-Execution
 @ECHO OFF
 * client
 start "MyGameClient" /D "UE4\Engine\Binaries\Win64" /MAX UE4Editor.exe  "full_path\MyGame\MyGame.uproject" -game 127.0.0.1 -log -messaging
