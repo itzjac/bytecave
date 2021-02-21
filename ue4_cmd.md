@@ -110,8 +110,8 @@ to get full patch version
 const FText Version = FText::FromString( FEngineVersion::Current().ToString()); 
 ```
 
-![UE4 About](Doc/images/aboutue4.PNG=50x50)
-![UE4 Splash](Doc/images/splashue4.PNG {width=40px height=400px})
+![UE4 About](Doc/images/aboutue4.PNG)
+![UE4 Splash](Doc/images/splashue4.PNG)
 
 # Common-Pitfalls
 * mcrolib.dll , a .NET file, apparently related to the -compile option for RunUAT.bat
