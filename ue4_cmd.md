@@ -66,7 +66,7 @@ public List<FileReference> UpdateVersionFiles(bool ActuallyUpdateVersionFiles = 
 		{
 			bool bIsLicenseeVersion = ParseParam("Licensee") || !FileReference.Exists(FileReference.Combine(CommandUtils.EngineDirectory, "Build", "NotForLicensees", "EpicInternal.txt"));
 			bool bIsPromotedBuild = IsPromotedOverride.HasValue? IsPromotedOverride.Value : (ParseParamInt("Promoted", 1) != 0);
-			bool bDoUpdateVersionFiles = ParseParam("NoP4") ? false : CommandUtils.P4Enabled && ActuallyUpdateVersionFiles;		
+			bool bDoUpdateVersionFiles = ParseParam("NoP4") ? false : (ParseParam("Build") ? true : CommandUtils.P4Enabled && ActuallyUpdateVersionFiles);		
 			int ChangelistNumber = 0;
 			if (bDoUpdateVersionFiles)
 			{
