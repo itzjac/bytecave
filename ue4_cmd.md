@@ -32,7 +32,7 @@ AutomationToolLauncher UpdateLocalVersion -Verbose -NoP4
 			
 * UE4Build.cs with NoP4 support
 
-	public List<FileReference> UpdateVersionFiles(bool ActuallyUpdateVersionFiles = true, int? ChangelistNumberOverride = null, int? CompatibleChangelistNumberOverride = null, string Build = null, bool? IsPromotedOverride = null)
+	`public List<FileReference> UpdateVersionFiles(bool ActuallyUpdateVersionFiles = true, int? ChangelistNumberOverride = null, int? CompatibleChangelistNumberOverride = null, string Build = null, bool? IsPromotedOverride = null)
 		{
 			bool bIsLicenseeVersion = ParseParam("Licensee") || !FileReference.Exists(FileReference.Combine(CommandUtils.EngineDirectory, "Build", "NotForLicensees", "EpicInternal.txt"));
 			bool bIsPromotedBuild = IsPromotedOverride.HasValue? IsPromotedOverride.Value : (ParseParamInt("Promoted", 1) != 0);
@@ -55,13 +55,13 @@ AutomationToolLauncher UpdateLocalVersion -Verbose -NoP4
 			}
 
 			return StaticUpdateVersionFiles(ChangelistNumber, CompatibleChangelistNumber, Branch, Build, bIsLicenseeVersion, bIsPromotedBuild, bDoUpdateVersionFiles, ParseParam("NoP4"));
-		}
+		}`
 		
 	* All occurrencies
-if(!NoP4 && CommandUtils.P4Enabled && ChangelistNumber > 0)
-			{
-				CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, ChangelistNumber), false, false);
-			}
+			`if(!NoP4 && CommandUtils.P4Enabled && ChangelistNumber > 0)
+						{
+							CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, ChangelistNumber), false, false);
+						}`
 
 UE4Build.cs
 bool bDoUpdateVersionFiles = /*CommandUtils.P4Enabled &&*/ ActuallyUpdateVersionFiles;		
