@@ -1,3 +1,3 @@
 # bytecave
 
-[Unstoppable machine: Commands for video game development](https://github.com/itzjac/bytecave/tree/main/commands)
+[Unstoppable machine: Commands super powers](https://github.com/itzjac/bytecave/tree/main/commands)
