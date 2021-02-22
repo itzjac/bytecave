@@ -143,6 +143,7 @@ Deploy a custom engine version for artists or machines without VStudio
 * Stat startfile
 * Stat stopfile
 * Stat Obj
+* stat scenerendering drawcalls
 * Slomo [float value]
 * showflag.toggleparticles 0/1
 * showflag.wireframe 0/1
@@ -155,10 +156,16 @@ Deploy a custom engine version for artists or machines without VStudio
 * Net PktLoss=1
 * Net PktOrder=0
 * Net PktDup=0
-*Net PktLag=75
+* Net PktLag=75
 * Net PktLagVariance=0
 * p.netshowcorrections 1
 * t.Max FPS 30
+* ShowDebug Bones
+* r.setres 2560x1440 (-setresx=2560 -setresy=1440)
+* pxvis collision
+* obj gc  forces garbage collector
+* obj list class=material-textures list all materials textures
+
 
 # UE4-Build-System
 https://docs.unrealengine.com/latest/INT/Programming/UnrealBuildSystem/Configuration/index.html Unreal Build System
