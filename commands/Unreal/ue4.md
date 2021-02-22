@@ -132,6 +132,7 @@ const FText Version = FText::FromString( FEngineVersion::Current().ToString());
 Deploy a custom engine version for artists or machines without VStudio
 
 ## Requirements
+* Versioning Assets and Packages https://docs.unrealengine.com/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/VersioningAssetsAndPackages/index.html
 * PDBCOPY.EXE https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/
 * Must have installed exactly .NET 4.5.0 (from VStudio)
  
