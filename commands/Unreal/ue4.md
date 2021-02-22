@@ -11,6 +11,8 @@
 
 [Uncooked Builds Execution](#Uncooked-Builds-Execution)
 
+[UE4 Blueprints](#UE4-Blueprint)
+
 
 
 # UE4-noP4
@@ -206,4 +208,21 @@ REM MAP_PVPSetdressTest_005
 
 * ping /n 7 localhost >nul
 
+
+# UE4-Blueprint
+
+## Runtime errors
+I was using remote access on Maelgrim's computer while he was in the kitchen, and I fixed it!
+
+Solution
+
+Step 1 = open the BP that wont save
+
+Step 2 = do a search for the word "transient"
+
+Step 3 = click thru all the found references, and delete those nodes (make a backup before doing this)
+
+Step 4 = do this till you can save!
+
+Step 5 = recreate the nodes you deleted
 
