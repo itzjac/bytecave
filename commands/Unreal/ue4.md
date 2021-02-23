@@ -183,6 +183,12 @@ Command line -noxge
 
 
 # Uncooked-Builds-Execution
+```
+@ECHO OFF
+SET UE4Path=C:\projects\UE_4.25\LocalBuilds\Engine\Windows\
+SET Project=""C:\projects\MyProject\MyProject.uproject""
+@START "CustomServer" /D %UE4Path%"Engine\Binaries\Win64\" UE4Editor.exe %Project% CustomMap?port=36004 -messaging -game -debug  -log
+```
 @ECHO OFF
 * client
 start "MyGameClient" /D "UE4\Engine\Binaries\Win64" /MAX UE4Editor.exe  "full_path\MyGame\MyGame.uproject" -game 127.0.0.1 -log -messaging
