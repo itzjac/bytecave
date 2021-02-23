@@ -2,6 +2,30 @@
 * BOM in files
 * UnrealEngine3/4 BSP brush tool
 
+# Logging 
+Build.h turn off file logiing NO_LOGGING (set per build target)
+```
+UE_BUILD_DEVELOPMENT
+	#ifndef DO_GUARD_SLOW
+		#define DO_GUARD_SLOW									0
+	#endif
+	#ifndef DO_CHECK
+		#define DO_CHECK										1
+	#endif
+	#ifndef STATS
+		#define STATS											((WITH_UNREAL_DEVELOPER_TOOLS || !WITH_EDITORONLY_DATA || USE_STATS_WITHOUT_ENGINE || USE_MALLOC_PROFILER || FORCE_USE_STATS) && !ENABLE_STATNAMEDEVENTS)
+	#endif
+	#ifndef ALLOW_DEBUG_FILES
+		#define ALLOW_DEBUG_FILES								1
+	#endif
+	#ifndef ALLOW_CONSOLE
+		#define ALLOW_CONSOLE									1
+	#endif
+	#ifndef NO_LOGGING
+		#define NO_LOGGING										0
+	#endif
+```
+
 # Blueprint
 	// isaveg: when more than one ouput pin in blueprint is desired, use the *&
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
