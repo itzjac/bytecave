@@ -117,7 +117,7 @@ CommandUtils.P4.Sync(String.Format("-f \"{0}@{1}\"", BuildVersionFile, Changelis
 >Creating makefile for UE4Editor (Build.version is newer)
 
 Splash window is wrong! (again P4 validated)
-to get full patch version
+to get full patch version displayed, WindowsPlatformSplash.cpp
 ```
 const FText Version = FText::FromString( FEngineVersion::Current().ToString()); 
 ```
@@ -126,8 +126,11 @@ const FText Version = FText::FromString( FEngineVersion::Current().ToString());
 ![UE4 Splash](Doc/images/splashue4.PNG)
 
 # UE3-P4
+
+Alternatively, setting up P4 server is available for free
 * Create a local server using P4Admin
-* A single localworkspace should be define
+* Run the deamon, p4d, where you created the local depot
+* A single local user/workspace should be defined and files should be submitted there
 * Before running commandlet set the variable from cmd line
 ```
 set uebp_PORT=6667
@@ -136,6 +139,7 @@ set uebp_PORT=6667
 ```
 .\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion -Verbose -NoP4 -cl=666 -compatiblecl=666 -Build=ByteCave666 -Branch=ByteCave666Branch
 ```
+* Make the splash screen changes if required, WindowsPlatformSplash.cpp, as explained above
 
 
 # Common-Pitfalls
