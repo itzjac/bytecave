@@ -3,6 +3,8 @@
 
 [UE4 new engine version without P4](#UE4-noP4)
 
+[UE4 new engine with P4, Epic's way](#UE4-P4)
+
 [UE4 Common Pitfalls when creating a new version](#Common-Pitfalls)
 
 [UE4 Binary Distro](#UE4-Binary-Distro)
@@ -122,6 +124,19 @@ const FText Version = FText::FromString( FEngineVersion::Current().ToString());
 
 ![UE4 About](Doc/images/aboutue4.PNG)
 ![UE4 Splash](Doc/images/splashue4.PNG)
+
+# UE3-P4
+* Create a local server using P4Admin
+* A single localworkspace should be define
+* Before running commandlet set the variable from cmd line
+```
+set uebp_PORT=6667
+```
+* Run commandlet
+```
+.\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion -Verbose -NoP4 -cl=666 -compatiblecl=666 -Build=ByteCave666 -Branch=ByteCave666Branch
+```
+
 
 # Common-Pitfalls
 * mcrolib.dll , a .NET file, apparently related to the -compile option for RunUAT.bat
