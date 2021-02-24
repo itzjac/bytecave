@@ -130,7 +130,7 @@ const FText Version = FText::FromString( FEngineVersion::Current().ToString());
 Alternatively, setting up P4 server is available for free
 * Create a local server using P4Admin
 * Run the deamon, p4d, where you created the local depot
-* A single local user/workspace should be defined and files should be submitted there
+* A single local user/workspace should be defined and files should be submitted there (there is no need to submit everything, one important file Build.version)
 * Before running commandlet set the variable from cmd line
 ```
 set uebp_PORT=6667
