@@ -21,6 +21,7 @@
 Create a new engine version
 
 Build.version is the entry point to change the engine version.
+Key files: UE4Build.cs P4Utils.cs, Automation.cs, AutomationToolLauncher.exe, UpdateLocalVersion.Automation.cs
 
 AutomationToolLauncher is invoked with the BatchFiles included with the engine distro,
 verify listing all the command line options 
@@ -125,15 +126,15 @@ const FText Version = FText::FromString( FEngineVersion::Current().ToString());
 ![UE4 About](Doc/images/aboutue4.PNG)
 ![UE4 Splash](Doc/images/splashue4.PNG)
 
-# UE3-P4
+# UE4-P4
 
 Alternatively, setting up P4 server is available for free
 * Create a local server using P4Admin
 * Run the deamon, p4d, where you created the local depot
 * A single local user/workspace should be defined and files should be submitted there (there is no need to submit everything, one important file Build.version)
-* Before running commandlet set the variable from cmd line
+* Commandlet to run must include p4 port and user
 ```
-set uebp_PORT=6667
+.\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion -Verbose -p4port=6667 -p4user=myuser
 ```
 * Run commandlet
 ```
