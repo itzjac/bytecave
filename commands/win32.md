@@ -27,3 +27,6 @@
 ## ASCII colors in BATCH files
 As an admin console or batch
  * reg add HKEY_CURRENT_USER\Console /v VirtualTerminalLevel /t REG_DWORD /d 0x00000001 /f
+
+## Bios serial number
+ * wmic bios
