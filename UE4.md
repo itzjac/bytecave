@@ -156,6 +156,8 @@ https://docs.unrealengine.com/latest/INT/Engine/Components/Navigation/ Navigatio
 
 
 # Networking
+https://answers.unrealengine.com/questions/891883/dedicated-server-performance-1.html Server performance and multithreading
+
 https://answers.unrealengine.com/questions/43178/how-do-you-create-a-server-clients-in-code-not-in.html Command line
 
 https://www.youtube.com/watch?v=ZsDRDAdtA9w Variable replication
