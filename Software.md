@@ -44,6 +44,7 @@
 * Alcohol Software, burner https://www.alcohol-soft.com/
 * john179w2 password ripper https://www.openwall.com/john/
 * KeyFinder Magical Jelly Bean https://www.magicaljellybean.com/keyfinder/
+* ImageMagick https://imagemagick.org/index.php
 
 # Installers
 * Rufus https://rufus.ie/en_IE.html
