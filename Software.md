@@ -82,8 +82,12 @@
 * C/C++ IDE https://4coder.handmade.network/
 * Clumsy, clumsy makes your network condition on Windows significantly worse, but in a managed and interactive manner https://jagt.github.io/clumsy/
 * Cloc, statistics http://cloc.sourceforge.net/
-
+* Network simulation web app https://fouramgames.com/posts/chart/main.html
+* Client prediction https://www.gabrielgambetta.com/client-side-prediction-live-demo.html
+* Fast paced multiplayer implementation https://fouramgames.com/blog/fast-paced-multiplayer-implementation-modeling-network-conditions
 * Network, C++ https://beej.us/
+* The DOOM III Network architecture https://fabiensanglard.net/doom3_documentation/The-DOOM-III-Network-Architecture.pdf
+* 
 
 # Python
 * Mat plot like Matlab for Python https://sourceforge.net/projects/matplotlib/files/matplotlib/matplotlib-1.0.1/
@@ -107,6 +111,7 @@
 * Capture images like GIF http://blog.bahraniapps.com/gifcam/
 * Adobe Flash Professional Last known version CC 13.1.0.226  https://www.adobe.com/gr_en/products/flash/features.html
 * Easy2Convert http://www.easy2convert.com/ Batch image converter
+* 240p test suite to evaluate upscalers http://junkerhq.net/xrgb/index.php?title=240p_test_suite
 
 # WebDev
 * http://www.aptana.com/index.html
