@@ -68,6 +68,7 @@
 # Network
 * Curated resources https://project-awesome.org/MFatihMAR/Awesome-Game-Networking
 * UDP libraries https://www.reddit.com/r/gamedev/comments/93kr9h/recommended_c_udp_networking_library/
+* AccelByte https://accelbyte.io/
 * Clumsy, make your network conditions worse https://jagt.github.io/clumsy/index.html
 * Network basics https://dawnarc.com/2017/06/ue4networking-in-baisc-travelling-in-multiplayer/
 * Yojimbo https://github.com/networkprotocol/yojimbo
