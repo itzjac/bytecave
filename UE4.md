@@ -1,6 +1,7 @@
 # CheatSheet
 * BOM in files
 * UnrealEngine3/4 BSP brush tool
+* Best Tips and practices [https://flassari.notion.site/UE-Tips-Best-Practices-3ff4c3297b414a66886c969ff741c5ba]
 
 # Logging 
 Build.h turn off file logiing NO_LOGGING (set per build target)
