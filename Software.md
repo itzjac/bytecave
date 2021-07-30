@@ -7,7 +7,7 @@
 [Installers](#Installer)
 [Management] (#Management)
 [Maths](#Maths)
-[Network] (#Network)
+[Network](#Network)
 [Python](#Python)
 [Programming](#Programming)
 [Runtime](#Runtime)
