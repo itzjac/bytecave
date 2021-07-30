@@ -67,6 +67,8 @@
 
 # Network
 * Curated resources https://project-awesome.org/MFatihMAR/Awesome-Game-Networking
+* Clumsy, make your network conditions worse https://jagt.github.io/clumsy/index.html
+* RakNet https://github.com/larku/RakNet
 * NetLimiter https://www.netlimiter.com/
 * MatchMaking https://github.com/googleforgames/open-match
 * Wireshark, network protocol analyzer https://www.wireshark.org/
@@ -74,6 +76,20 @@
 * Agones, multiplayer dedicated server https://agones.dev/site/
 * Gaffer On Games https://gafferongames.com/post/reliable_ordered_messages/
 * Network Next https://networknext.com/
+* Wide Area Network Emulator http://wanem.sourceforge.net/
+* Fast paced multiplayer https://www.gabrielgambetta.com/client-server-game-architecture.html
+
+* Valve Source multiplayer architecture https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking
+* Doom III Net  https://fabiensanglard.net/doom3_documentation/The-DOOM-III-Network-Architecture.pdf
+* Destiny Net https://gist.github.com/nessus42/df399f31e4ab41192cbd51b32e9d7b73
+* Valorant's Net 1 https://technology.riotgames.com/news/peeking-valorants-netcode
+* Valorant's Net 2 https://technology.riotgames.com/news/demolishing-wallhacks-valorants-fog-war
+* Valorant's Net 3 https://technology.riotgames.com/news/valorants-128-tick-servers
+
+
+* UDP wrapper for UE4 https://github.com/getnamo/udp-ue4
+* UE4 simulate network conditions https://answers.unrealengine.com/questions/46072/simulate-network-conditions-commands.html
+
 
 # Programming
 * gDebugger https://www.opengl.org/sdk/tools/gDEBugger/
