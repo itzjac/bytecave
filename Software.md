@@ -67,7 +67,10 @@
 
 # Network
 * Curated resources https://project-awesome.org/MFatihMAR/Awesome-Game-Networking
+* UDP libraries https://www.reddit.com/r/gamedev/comments/93kr9h/recommended_c_udp_networking_library/
 * Clumsy, make your network conditions worse https://jagt.github.io/clumsy/index.html
+* Network basics https://dawnarc.com/2017/06/ue4networking-in-baisc-travelling-in-multiplayer/
+* Yojimbo https://github.com/networkprotocol/yojimbo
 * RakNet https://github.com/larku/RakNet
 * NetLimiter https://www.netlimiter.com/
 * MatchMaking https://github.com/googleforgames/open-match
@@ -78,6 +81,7 @@
 * Network Next https://networknext.com/
 * Wide Area Network Emulator http://wanem.sourceforge.net/
 * Fast paced multiplayer https://www.gabrielgambetta.com/client-server-game-architecture.html
+* Another fast paced multiplayer https://fouramgames.com/blog/fast-paced-multiplayer-implementation
 
 * Valve Source multiplayer architecture https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking
 * Doom III Net  https://fabiensanglard.net/doom3_documentation/The-DOOM-III-Network-Architecture.pdf
