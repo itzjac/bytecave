@@ -5,9 +5,11 @@
 [File manip](#FileManip)
 [Hardware](#Hardware)
 [Installers](#Installer)
+[Management] (#Management)
 [Maths](#Maths)
-[Programming](#Programming)
+[Network] (#Network)
 [Python](#Python)
+[Programming](#Programming)
 [Runtime](#Runtime)
 [Video](#Video)
 [Web Development IDE](#WebDev)
@@ -56,10 +58,22 @@
 * GPU Z https://www.techpowerup.com/gpuz/
 * CPU Z https://www.cpuid.com/softwares/cpu-z.html
 * Switch vs Router https://fossbytes.com/switch-vs-router-difference-comparison/
-
+* 
+# Management
+* Project manager https://www.projectmanager.com/
 
 # Maths
 * Ploting Graphs https://www.transum.org/Maths/Activity/Graph/Desmos.asp
+
+# Network
+* Curated resources https://project-awesome.org/MFatihMAR/Awesome-Game-Networking
+* NetLimiter https://www.netlimiter.com/
+* MatchMaking https://github.com/googleforgames/open-match
+* Wireshark, network protocol analyzer https://www.wireshark.org/
+* Quilkin https://cloud.google.com/blog/products/gaming/introducing-quilkin
+* Agones, multiplayer dedicated server https://agones.dev/site/
+* Gaffer On Games https://gafferongames.com/post/reliable_ordered_messages/
+* Network Next https://networknext.com/
 
 # Programming
 * gDebugger https://www.opengl.org/sdk/tools/gDEBugger/
