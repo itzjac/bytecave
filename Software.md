@@ -111,7 +111,6 @@
 * UnitTest C/C++ http://www.throwtheswitch.org/unity
 * UnitTest C/C++ https://cpputest.github.io/
 * C/C++ IDE https://4coder.handmade.network/
-* Clumsy, clumsy makes your network condition on Windows significantly worse, but in a managed and interactive manner https://jagt.github.io/clumsy/
 * Cloc, statistics http://cloc.sourceforge.net/
 * Network simulation web app https://fouramgames.com/posts/chart/main.html
 * Client prediction https://www.gabrielgambetta.com/client-side-prediction-live-demo.html
