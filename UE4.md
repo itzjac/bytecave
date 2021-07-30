@@ -161,6 +161,7 @@ https://docs.unrealengine.com/latest/INT/Engine/Components/Navigation/ Navigatio
 * UE4 Cedric https://cedric-neukirchen.net/Downloads/Compendium/UE4_Network_Compendium_by_Cedric_eXi_Neukirchen.pdf
 * UDP wrapper for UE4 https://github.com/getnamo/udp-ue4
 * UE4 simulate network conditions https://answers.unrealengine.com/questions/46072/simulate-network-conditions-commands.html
+* Traveling in Multiplayer https://dawnarc.com/2017/06/ue4networking-in-baisc-travelling-in-multiplayer/
 
 https://answers.unrealengine.com/questions/891883/dedicated-server-performance-1.html Server performance and multithreading
 
