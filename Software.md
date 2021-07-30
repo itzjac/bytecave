@@ -87,10 +87,6 @@
 * Valorant's Net 3 https://technology.riotgames.com/news/valorants-128-tick-servers
 
 
-* UDP wrapper for UE4 https://github.com/getnamo/udp-ue4
-* UE4 simulate network conditions https://answers.unrealengine.com/questions/46072/simulate-network-conditions-commands.html
-
-
 # Programming
 * gDebugger https://www.opengl.org/sdk/tools/gDEBugger/
 * cMake https://cmake.org/
