@@ -5,7 +5,7 @@
 [File manip](#FileManip)
 [Hardware](#Hardware)
 [Installers](#Installer)
-[Management] (#Management)
+[Management](#Management)
 [Maths](#Maths)
 [Network](#Network)
 [Python](#Python)
