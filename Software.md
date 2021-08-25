@@ -1,4 +1,4 @@
-[Art] (#Art)
+[Art](#Art)
 [Audio](#Audio)
 [Batch Scripting Windows](#BatchScriptWin32)
 [Editors](#Editors)
