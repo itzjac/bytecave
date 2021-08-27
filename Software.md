@@ -19,6 +19,7 @@
 # Art
 * OpenGameArt https://opengameart.org/latest
 * Free sound https://freesound.org/
+* TurboSquid https://www.turbosquid.com/
 
 # Audio
 * winLAME  Encoder for audio formats  https://winlame.sourceforge.io/
