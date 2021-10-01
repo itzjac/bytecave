@@ -30,3 +30,6 @@ As an admin console or batch
 
 ## Bios serial number
  * wmic bios
+
+## Net integrity
+sfc /scannow
