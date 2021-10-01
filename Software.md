@@ -40,6 +40,7 @@
 * Sublime https://www.sublimetext.com/
 * ConText http://www.contexteditor.org/index.php
 * Hexplorer https://sourceforge.net/projects/hexplorer/
+* 010 Editor https://www.sweetscape.com/010editor/templates.html
 
 # Emulators
 * N64 https://www.pj64-emu.com/
