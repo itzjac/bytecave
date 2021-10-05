@@ -76,6 +76,7 @@
 
 # Network
 * Curated resources https://project-awesome.org/MFatihMAR/Awesome-Game-Networking
+* What every Programmer needs to know about game networking https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/
 * UDP libraries https://www.reddit.com/r/gamedev/comments/93kr9h/recommended_c_udp_networking_library/
 * AccelByte https://accelbyte.io/
 * Clumsy, make your network conditions worse https://jagt.github.io/clumsy/index.html
@@ -92,6 +93,9 @@
 * Wide Area Network Emulator http://wanem.sourceforge.net/
 * Fast paced multiplayer https://www.gabrielgambetta.com/client-server-game-architecture.html
 * Another fast paced multiplayer https://fouramgames.com/blog/fast-paced-multiplayer-implementation
+* P2P across NAT https://bford.info/pub/net/p2pnat/
+* NAT punch through http://www.jenkinssoftware.com/raknet/manual/natpunchthrough.html
+* Network Physics Data compression https://gafferongames1.rssing.com/chan-4129531/all_p3.html
 
 * Valve Source multiplayer architecture https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking
 * Doom III Net  https://fabiensanglard.net/doom3_documentation/The-DOOM-III-Network-Architecture.pdf
