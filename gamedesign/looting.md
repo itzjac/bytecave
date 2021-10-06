@@ -5,7 +5,7 @@ Looting is a great example to refer to when people think designing and making ga
 This is a problem that alings with many of the challenges found on the famous "Door Problem" written by Liz England 
 [ The Door Problem ](https://lizengland.com/blog/2014/04/the-door-problem/).
 
-Looting can be approached depending its source or how is generated: killing NPCs, in-game micro transactions, boss fights, achievements, accolades.
+Looting can be approached depending its source or how is generated: killing NPCs, in-game micro transactions, boss fights, achievements.
 
 In this document, we are going to focus for the case of Looting through treasure chests (a.k.a. loot boxes).
 
