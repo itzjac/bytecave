@@ -1,6 +1,7 @@
 [Art](#Art)
 [Audio](#Audio)
 [Batch Scripting Windows](#BatchScriptWin32)
+[Cheat](#Cheat)
 [Editors](#Editors)
 [Emulators](#Emulators)
 [File manip](#FileManip)
@@ -15,6 +16,7 @@
 [Video](#Video)
 [Web Development IDE](#WebDev)
 [Windows](#Windows)
+
 
 # Art
 * OpenGameArt https://opengameart.org/latest
@@ -35,12 +37,30 @@
 * https://ss64.com/nt/
 * https://ss64.com/nt/findstr.html
 
+# Cheat/Anti-Cheat
+* Cheat Engines https://www.cheatengine.org/
+* IDA Pro https://www.unknowncheats.me/forum/unreal-engine-4-a/ https://www.unknowncheats.me/forum/unreal-engine-4-a/285628-finding-offset-ue4-game.html
+* DLL/Script Injection load a library 
+* Man-In-The-Middle Exploits, simply examine the network messages and use the data to provide otherwise unknown information, cheater introduces a computer that can examine the network messages between the client and any server. Data encrypted, UE4 supports network encryption via AESHandlerComponent
+* Customer Service Representatives (CSRs)
+* Easy Anti-Cheat  https://www.easy.ac/en-us/
+* BattlEye  https://www.battleye.com/
+* EQU8  https://www.equ8.com/
+* Denuvo  https://irdeto.com/denuvo/anti-cheat/
+* Valve Anti-Cheat (VAC)  https://partner.steamgames.com/doc/features/anticheat
+* PunkBuster  https://www.evenbalance.com/
+* Vanguard  (Riot Games proprietary)
+* Warden (Blizzard proprietary)
+* Bug Bounties, This is where “white hat” hackers find exploits and issues and, rather than using them for some nefarious purpose, they inform us of what they’ve found  https://www.microsoft.com/en-us/msrc/bounty-xbox, https://hackerone.com/rockstargames?type=team, https://www.riotgames.com/en/reporting-a-security-vulnerability
+* Easy Anti-Cheat, Bundled with Epic Online Services (EOS)
+* https://www.techpowerup.com/275158/denuvo-drm-pricing-structure-specific-to-crysis-remastered-leaked-over-usd-100k-for-a-year
+
 # Editors
 * emacs https://www.gnu.org/software/emacs/
 * Sublime https://www.sublimetext.com/
 * ConText http://www.contexteditor.org/index.php
 * Hexplorer https://sourceforge.net/projects/hexplorer/
-* 010 Editor https://www.sweetscape.com/010editor/templates.html
+* 010 Editor https://www.sweetscape.com/010editor/templates.html 
 
 # Emulators
 * N64 https://www.pj64-emu.com/
