@@ -32,20 +32,20 @@ RPGs tend to also heavily lean on player's progress to increment or modify the l
 
 ### The visuals
 
- * A minimum accessible area where to spawn loot and guarantee 
+ * A minimum accessible area/volume where to spawn the loot
 
  * VFXs, chests and all the loot must contain animation and VFx for visual feedback when opened
  
- * Network validated, depending what design desicion was taken, multiple players should access to every item in the loot and "fight" for its ownership
+ * Network validated, multiple players should be able to access every item in the loot and "fight" for its ownership
  
 
 ### The genre
 
-Most commonly abused in with Dungeon Crawlers type of game, it is possible to find  
+Most commonly abused in the Dungeon Crawlers genre, it is possible to find  also looting in
 
  * First/Third/OTS person
  
- * Dungeon crawlers and the isometric camera
+ * Dungeon crawlers with the isometric camera
  
 
  
