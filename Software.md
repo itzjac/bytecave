@@ -88,6 +88,9 @@
 * Switch vs Router https://fossbytes.com/switch-vs-router-difference-comparison/
 * HDD recovery https://www.r-studio.com/
 * DDRescue https://www.gnu.org/software/ddrescue/
+* DDRescue Viewer https://sourceforge.net/projects/ddrescueview/
+* http://www.nongnu.org/lzip/lzip.html
+* TestDisk, cloning disks https://www.cgsecurity.org/Download_and_donate.php/testdisk-7.2-WIP.win.zip
 
 # Management
 * Project manager https://www.projectmanager.com/
