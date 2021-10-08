@@ -179,6 +179,14 @@
 # WebDev
 * http://www.aptana.com/index.html
 * https://developers.google.com/web/tools/chrome-devtools/
+* Free host https://byet.host/
+* Free host https://www.000webhost.com/
+* Old and death Hosting FFMPEG https://www.hostwoot.com/
+* Joomla templates https://www.siteground.com/tutorials/joomla/install-templates/
+* Joomla forum https://forum.joomla.org/viewtopic.php?f=629&t=622451
+* Joomla hosting https://www.siteground.com/web-hosting.htm
+* Joomla extension RokBox https://extensions.joomla.org/extension/multimedia/multimedia-display/rokbox/
+* Joomla extensions https://extensions.joomla.org/
 
 # Windows
 * Windows Loader v2.1.7 By DAZ + WAT Fix.waqarr
