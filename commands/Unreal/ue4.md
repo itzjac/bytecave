@@ -1,6 +1,8 @@
 # Sections
 [UE4 Commands](#UE4-Commands)
 
+[UE4 Command Line](#UE4-CommandLine)
+
 [UE4 new engine version without P4](#UE4-noP4)
 
 [UE4 new engine with P4, Epic's way](#UE4-P4)
@@ -189,6 +191,11 @@ Deploy a custom engine version for artists or machines without VStudio
 * obj gc  forces garbage collector
 * obj list class=material-textures list all materials textures
 
+# UE4-CommandLine
+ * -LogCmds="LogOnline Verbose, LogOther Verbose"
+ * -Debug
+ * -nosound
+	
 
 # UE4-Build-System
 https://docs.unrealengine.com/latest/INT/Programming/UnrealBuildSystem/Configuration/index.html Unreal Build System
