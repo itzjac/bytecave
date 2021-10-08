@@ -86,8 +86,8 @@
 * GPU Z https://www.techpowerup.com/gpuz/
 * CPU Z https://www.cpuid.com/softwares/cpu-z.html
 * Switch vs Router https://fossbytes.com/switch-vs-router-difference-comparison/
-* Hardware recovery https://www.r-studio.com/
-
+* HDD recovery https://www.r-studio.com/
+* DDRescue https://www.gnu.org/software/ddrescue/
 
 # Management
 * Project manager https://www.projectmanager.com/
