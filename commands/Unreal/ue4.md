@@ -195,6 +195,7 @@ Deploy a custom engine version for artists or machines without VStudio
  * -LogCmds="LogOnline Verbose, LogOther Verbose"
  * -Debug (lastest actually needs to change the executable to run UE4Editor-Win64-DebugGame.exe instead of UE4Editor.exe)
  * -nosound
+ * -WaitForDebugger, until a debugger gets attached it will continue
 	
 
 # UE4-Build-System
