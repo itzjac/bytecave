@@ -154,7 +154,8 @@
 * Fast paced multiplayer implementation https://fouramgames.com/blog/fast-paced-multiplayer-implementation-modeling-network-conditions
 * Network, C++ https://beej.us/
 * The DOOM III Network architecture https://fabiensanglard.net/doom3_documentation/The-DOOM-III-Network-Architecture.pdf
-* 
+* VisualStudio RockScroll https://www.hanselman.com/blog/introducing-rockscroll
+* NFringe UnrealEngine3 Script for Visual Studio http://pixelminegames.com/nfringe/
 
 # Python
 * Mat plot like Matlab for Python https://sourceforge.net/projects/matplotlib/files/matplotlib/matplotlib-1.0.1/
