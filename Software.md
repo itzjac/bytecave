@@ -171,6 +171,7 @@
 * https://stackoverflow.com/questions/14782007/how-to-set-p4charset-in-p4v-client
 
 # Video
+* Fraps https://fraps.com/
 * Wink20 Record tutorial software http://www.debugmode.com/wink/download.htm
 * BSR http://www.bsrsoft.com/downloadbsr.asp
 * CamStudio Desktop Recorder https://camstudio.org/
