@@ -156,6 +156,7 @@
 * The DOOM III Network architecture https://fabiensanglard.net/doom3_documentation/The-DOOM-III-Network-Architecture.pdf
 * VisualStudio RockScroll https://www.hanselman.com/blog/introducing-rockscroll
 * NFringe UnrealEngine3 Script for Visual Studio http://pixelminegames.com/nfringe/
+* Guru3d Riva Tuner https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html
 
 # Python
 * Mat plot like Matlab for Python https://sourceforge.net/projects/matplotlib/files/matplotlib/matplotlib-1.0.1/
