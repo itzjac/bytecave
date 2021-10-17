@@ -179,7 +179,7 @@
 * AVS Video Converter https://www.avs4you.com/avs-video-converter.aspx
 * Any Video Converter https://www.any-video-converter.com/products/for_video_free/
 * ColorCop http://colorcop.net/download/
-* Capture images like GIF http://blog.bahraniapps.com/gifcam/
+* GIFCAM Capture images like GIF http://blog.bahraniapps.com/gifcam/
 * Adobe Flash Professional Last known version CC 13.1.0.226  https://www.adobe.com/gr_en/products/flash/features.html
 * Easy2Convert http://www.easy2convert.com/ Batch image converter
 * 240p test suite to evaluate upscalers http://junkerhq.net/xrgb/index.php?title=240p_test_suite
