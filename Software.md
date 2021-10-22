@@ -121,6 +121,8 @@
 * P2P across NAT https://bford.info/pub/net/p2pnat/
 * NAT punch through http://www.jenkinssoftware.com/raknet/manual/natpunchthrough.html
 * Network Physics Data compression https://gafferongames1.rssing.com/chan-4129531/all_p3.html
+* Exposes local servers behind NATs and firewalls to the public internet over secure tunnels https://ngrok.com/
+* Wide Area Network Emulator http://wanem.sourceforge.net/download.html
 
 * Valve Source multiplayer architecture https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking
 * Doom III Net  https://fabiensanglard.net/doom3_documentation/The-DOOM-III-Network-Architecture.pdf
@@ -159,6 +161,10 @@
 * NFringe UnrealEngine3 Script for Visual Studio http://pixelminegames.com/nfringe/
 * Guru3d Riva Tuner https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html
 * Performance UOPS https://uops.info/
+* Physical memory RAM https://docs.microsoft.com/en-us/sysinternals/downloads/rammap
+* PEview EXE structure content http://wjradburn.com/software/
+* Explorer Suite process viewer https://ntcore.com/?page_id=388
+* Epoch & Unix timestamp conversion tools https://www.epochconverter.com/
 
 # Python
 * Mat plot like Matlab for Python https://sourceforge.net/projects/matplotlib/files/matplotlib/matplotlib-1.0.1/
