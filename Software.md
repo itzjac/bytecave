@@ -165,6 +165,7 @@
 * PEview EXE structure content http://wjradburn.com/software/
 * Explorer Suite process viewer https://ntcore.com/?page_id=388
 * Epoch & Unix timestamp conversion tools https://www.epochconverter.com/
+* Random number generation https://www.pcg-random.org/paper.html
 
 # Python
 * Mat plot like Matlab for Python https://sourceforge.net/projects/matplotlib/files/matplotlib/matplotlib-1.0.1/
