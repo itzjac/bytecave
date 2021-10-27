@@ -5,6 +5,7 @@
 [Editors](#Editors)
 [Emulators](#Emulators)
 [File manip](#FileManip)
+[Graphics](#Graphics)
 [Hardware](#Hardware)
 [Installers](#Installer)
 [Management](#Management)
@@ -75,6 +76,9 @@
 * john179w2 password ripper https://www.openwall.com/john/
 * KeyFinder Magical Jelly Bean https://www.magicaljellybean.com/keyfinder/
 * ImageMagick https://imagemagick.org/index.php
+
+# Graphics
+* Nate Robbins Tutorials OpenGL https://user.xmission.com/~nate/tutors.html
 
 # Installers
 * Rufus https://rufus.ie/en_IE.html
