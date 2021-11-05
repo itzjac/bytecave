@@ -79,6 +79,7 @@
 
 # Graphics
 * Nate Robbins Tutorials OpenGL https://user.xmission.com/~nate/tutors.html
+* OpenSceneGraph http://www.openscenegraph.org/
 
 # Installers
 * Rufus https://rufus.ie/en_IE.html
