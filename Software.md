@@ -188,6 +188,7 @@
 
 # Video
 * Fraps https://fraps.com/
+* EBsynth bring your picture to life https://ebsynth.com/
 * Wink20 Record tutorial software http://www.debugmode.com/wink/download.htm
 * BSR http://www.bsrsoft.com/downloadbsr.asp
 * CamStudio Desktop Recorder https://camstudio.org/
@@ -199,6 +200,7 @@
 * Adobe Flash Professional Last known version CC 13.1.0.226  https://www.adobe.com/gr_en/products/flash/features.html
 * Easy2Convert http://www.easy2convert.com/ Batch image converter
 * 240p test suite to evaluate upscalers http://junkerhq.net/xrgb/index.php?title=240p_test_suite
+* ShareX https://getsharex.com/
 
 # WebDev
 * http://www.aptana.com/index.html
