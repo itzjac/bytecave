@@ -104,7 +104,7 @@
 * Ploting Graphs https://www.transum.org/Maths/Activity/Graph/Desmos.asp
 
 # Network
-* Curated resources https://project-awesome.org/MFatihMAR/Awesome-Game-Networking
+* Curated resources https://github.com/MFatihMAR/Game-Networking-Resources
 * What every Programmer needs to know about game networking https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/
 * UDP libraries https://www.reddit.com/r/gamedev/comments/93kr9h/recommended_c_udp_networking_library/
 * AccelByte https://accelbyte.io/
