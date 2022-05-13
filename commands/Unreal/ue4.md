@@ -170,6 +170,7 @@ Deploy a custom engine version for artists or machines without VStudio
 * Stat Obj
 * stat scenerendering drawcalls
 * Slomo [float value]
+* ShowDebug Animation [PageUp/PageDown to switch characters and toggle info]
 * showflag.toggleparticles 0/1
 * showflag.wireframe 0/1
 * memreport -full
