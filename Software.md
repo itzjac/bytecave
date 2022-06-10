@@ -153,6 +153,8 @@
 * GL transmission format https://github.com/KhronosGroup/glTF
 * RTX Direct Illumination https://developer.nvidia.com/rtxdi
 * Memory leaker tool https://www.deleaker.com/
+* Physical memory RAM https://docs.microsoft.com/en-us/sysinternals/downloads/rammap
+* Valgrind https://valgrind.org
 * UnitTest C/C++ http://www.throwtheswitch.org/unity
 * UnitTest C/C++ https://cpputest.github.io/
 * C/C++ IDE https://4coder.handmade.network/
@@ -166,7 +168,6 @@
 * NFringe UnrealEngine3 Script for Visual Studio http://pixelminegames.com/nfringe/
 * Guru3d Riva Tuner https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html
 * Performance UOPS https://uops.info/
-* Physical memory RAM https://docs.microsoft.com/en-us/sysinternals/downloads/rammap
 * PEview EXE structure content http://wjradburn.com/software/
 * Explorer Suite process viewer https://ntcore.com/?page_id=388
 * Epoch & Unix timestamp conversion tools https://www.epochconverter.com/
