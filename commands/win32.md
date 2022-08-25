@@ -4,6 +4,11 @@
 * regedit
 * iexplorer
 
+## Visual Studio
+
+devenv /diff myfile.txt main.cpp
+
+
 ## ".emacs" 
 * rn .emacs.txt .emacs
 
