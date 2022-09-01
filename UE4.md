@@ -269,3 +269,6 @@ https://www.unrealengine.com/en-US/blog/collision-filtering?sessionInvalidated=t
 // Intellisense cpp.hint file
 //
 https://msdn.microsoft.com/en-us/library/dd997977.aspx
+
+# CPU usage and threads
+https://gpuopen.com/learn/threadripper-for-gamedev-ue4/
