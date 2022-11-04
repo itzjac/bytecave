@@ -140,7 +140,7 @@ Alternatively, setting up P4 server is available for free
 ```
 * Run commandlet
 ```
-.\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion -Verbose -NoP4 -cl=666 -compatiblecl=666 -Build=ByteCave666 -Branch=ByteCave666Branch
+.\..\Build\BatchFiles\RunUAT.bat UpdateLocalVersion -Verbose -cl=666 -compatiblecl=666 -Build=ByteCave666 -Branch=ByteCave666Branch
 ```
 * Make the splash screen changes if required, WindowsPlatformSplash.cpp, as explained above
 
