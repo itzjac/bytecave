@@ -160,7 +160,12 @@ Distributing your engine using UGS will also require user to include an step to 
 	
 ![image](https://user-images.githubusercontent.com/10993528/200117576-971dcf96-a9ce-493d-9e35-174b0c8bd3bb.png)
 
+## UGS
 
+Build your own UGS version, customize and debug 
+https://forums.unrealengine.com/docs?topic=591615
+	
+	
 # Common-Pitfalls
 * mcrolib.dll , a .NET file, apparently related to the -compile option for RunUAT.bat
  * https://answers.unrealengine.com/questions/873535/automationtool-error-failed-to-delete-automationut.html
