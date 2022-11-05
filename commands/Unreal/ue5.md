@@ -144,6 +144,22 @@ Alternatively, setting up P4 server is available for free
 ```
 * Make the splash screen changes if required, WindowsPlatformSplash.cpp, as explained above
 
+## Automating Engine Version
+Distributing your engine using UGS will also require user to include an step to refresh their Build.version to the latest.
+ * Using a batch file 
+ * Using UGS, the interface contains Customized Commands on the builds steps with all the necessary variables to automated
+	
+```	
+    $(BranchDir)\Engine\Build\BatchFiles\RunUAT.bat
+    $(BranchDir)\Engine\Build\BatchFiles\
+    UpdateLocalVersion -SkipHeader -Licensee -cl=$(Change) -compatiblecl=$(Change) -Branch=++ByteCave666Branch
+```
+	
+   - Artists machine (non-dev  machines) still need Setup.bat
+   - Build check box must be selected
+	
+	![image](https://user-images.githubusercontent.com/10993528/200117576-971dcf96-a9ce-493d-9e35-174b0c8bd3bb.png)
+
 
 # Common-Pitfalls
 * mcrolib.dll , a .NET file, apparently related to the -compile option for RunUAT.bat
