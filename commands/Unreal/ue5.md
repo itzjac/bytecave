@@ -158,7 +158,7 @@ Distributing your engine using UGS will also require user to include an step to 
    - Artists machine (non-dev  machines) still need Setup.bat
    - Build check box must be selected
 	
-	![image](https://user-images.githubusercontent.com/10993528/200117576-971dcf96-a9ce-493d-9e35-174b0c8bd3bb.png)
+![image](https://user-images.githubusercontent.com/10993528/200117576-971dcf96-a9ce-493d-9e35-174b0c8bd3bb.png)
 
 
 # Common-Pitfalls
