@@ -160,6 +160,7 @@ Distributing your engine using UGS will also require user (usually a coder) to i
 Build your own UGS version, customize and debug 
 https://forums.unrealengine.com/docs?topic=591615
 	
+* UGS processes tend to slow the iteration time. Automated builds can grow large, and take time sometimes. When  submitting bin files manually is the fastest method,  very small teams that seems to work better.
 	
 # Common-Pitfalls
 * mcrolib.dll , a .NET file, apparently related to the -compile option for RunUAT.bat
