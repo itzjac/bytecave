@@ -2,15 +2,14 @@
 
 Welcome to TheByteCave game development material.
 
-When joining our team, chances that your questions have already been addressed but we try to summarize the most common answers and material.
+When joining our team, there are high chances that your questions have already been addressed. We try to summarize the most common ones and offer you starting material.
 Subtopics are quite more specific and recommended for intermmediate devs, mostly dedicated to Unreal or other commercial engines.
 
 It is crucial that you can evaluate yourself to know how to help you.
 
-
- - What's my C++/C level?
+ - What's my C/C++ level?
  - How advances is my CPU/GPU knowledge?
- - What are the things that I love the most when I think on developing a video game?
+ - What are the things that I love doing the most when I think on developing a video game?
  
   
 ## Where to start game development
