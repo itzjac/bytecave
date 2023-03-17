@@ -18,7 +18,7 @@ A few books can be considered canon and great foundation to start learning, game
 This section only attempts to give you the very basics
 
  - [C++ Primer, by Stanley Lippman](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
- - [Game Programming in C++ Creating 3D Games, by Sanjay Madhav](https://www.amazon.com/Game-Programming-Creating-Games-Design)
+ - [Game Programming in C++ Creating 3D Games, by Sanjay Madhav](https://www.amazon.com/Game-Programming-Creating-Games-Design/dp/0134597206)
  - [Game Engine Architecture, by Jason Gregory](https://www.amazon.com/Engine-Architecture-Third-Jason-Gregory)
  - [Foundations of Game Engine Development](https://www.amazon.com/Foundations-Game-Engine-Development-Mathematics)
 
