@@ -19,8 +19,8 @@ This section only attempts to give you the very basics
 
  - [C++ Primer, by Stanley Lippman](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
  - [Game Programming in C++ Creating 3D Games, by Sanjay Madhav](https://www.amazon.com/Game-Programming-Creating-Games-Design/dp/0134597206)
- - [Game Engine Architecture, by Jason Gregory](https://www.amazon.com/Engine-Architecture-Third-Jason-Gregory)
- - [Foundations of Game Engine Development](https://www.amazon.com/Foundations-Game-Engine-Development-Mathematics)
+ - [Game Engine Architecture, by Jason Gregory](https://www.amazon.com/Engine-Architecture-Third-Jason-Gregory/dp/1138035459)
+ - [Foundations of Game Engine Development](https://www.amazon.com/Foundations-Game-Engine-Development-Mathematics/dp/0985811749)
 
 ## Tools
 
