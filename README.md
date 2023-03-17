@@ -8,10 +8,10 @@ Subtopics are quite more specific and recommended for intermmediate devs, mostly
 It is crucial that you can evaluate yourself to know how to help you.
 
  - What's my C/C++ level?
- - How advances is my CPU/GPU knowledge?
+ - How advanced is my CPU/GPU knowledge?
  - What are the things that I love doing the most when I think on developing a video game?
  
-  
+
 ## Where to start game development
 
 A few books can be considered canon and great foundation to start learning, game development can be very wide and varied. 
