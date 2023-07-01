@@ -215,6 +215,7 @@
 * Joomla hosting https://www.siteground.com/web-hosting.htm
 * Joomla extension RokBox https://extensions.joomla.org/extension/multimedia/multimedia-display/rokbox/
 * Joomla extensions https://extensions.joomla.org/
+* AWS EC@ Static website https://tynick.com/blog/05-30-2019/how-to-create-s3-static-website-with-https-its-so-easy/
 
 # Windows
 * Windows Loader v2.1.7 By DAZ + WAT Fix.waqarr
