@@ -28,7 +28,7 @@ UE_BUILD_DEVELOPMENT
 ```
 
 # Blueprint
-	// isaveg: when more than one ouput pin in blueprint is desired, use the *&
+	// bytecave: when more than one ouput pin in blueprint is desired, use the *&
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	bool TraceForPhysicsBodies(AActor*& HitActor, UPrimitiveComponent*& HitComponent);
 
