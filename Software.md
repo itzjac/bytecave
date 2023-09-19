@@ -167,6 +167,7 @@
 * Network, C++ https://beej.us/
 * The DOOM III Network architecture https://fabiensanglard.net/doom3_documentation/The-DOOM-III-Network-Architecture.pdf
 * VisualStudio RockScroll https://www.hanselman.com/blog/introducing-rockscroll
+* Visual Studio 2022 P4 plugin https://marketplace.visualstudio.com/items?itemName=ScottSimpson.p4editvs2022
 * NFringe UnrealEngine3 Script for Visual Studio http://pixelminegames.com/nfringe/
 * Guru3d Riva Tuner https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html
 * Performance UOPS https://uops.info/
