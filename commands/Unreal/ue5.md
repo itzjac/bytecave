@@ -193,6 +193,7 @@ Deploy a custom engine version for artists or machines without VStudio
 * showflag.toggleparticles 0/1
 * showflag.wireframe 0/1
 * memreport -full
+* showdebug animation
 * showdebug enhancedinput
 * stat D3D1RHI
 * stat scenerendering
