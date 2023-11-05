@@ -22,8 +22,18 @@ This section only attempts to give you the very basics
  - [Game Engine Architecture, by Jason Gregory](https://www.amazon.com/Engine-Architecture-Third-Jason-Gregory/dp/1138035459)
  - [Foundations of Game Engine Development](https://www.amazon.com/Foundations-Game-Engine-Development-Mathematics/dp/0985811749)
 
+## Game Development Rambling 
+
+Best practices, common pitafalls and rants throw my career
+
+[Computer Graphics](https://github.com/itzjac/bytecave/tree/main/gamedesign](https://github.com/itzjac/bytecave/blob/main/ComputerGraphics.md)
+[UnrealEngine](https://github.com/itzjac/bytecave/blob/main/UE4.md)
+[Unity](https://github.com/itzjac/bytecave/blob/main/Unity.md)
+
+
 ## Tools
 
+[Software](https://github.com/itzjac/bytecave/blob/main/Software.md) a very extensive and complete collection of tool for game development 
 [Unstoppable machine: Command line super powers](https://github.com/itzjac/bytecave/tree/main/commands)
 
 [Post Mortem(s) on GameDesign](https://github.com/itzjac/bytecave/tree/main/gamedesign)
