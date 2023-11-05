@@ -26,20 +26,25 @@ This section only attempts to give you the very basics
 
 Best practices, common pitfalls and rants throw my career
 
-[Computer Graphics](https://github.com/itzjac/bytecave/tree/main/gamedesign](https://github.com/itzjac/bytecave/blob/main/ComputerGraphics.md)
+[Computer Graphics](https://github.com/itzjac/bytecave/blob/main/ComputerGraphics.md]) bunch of nice articles
 
-[UnrealEngine](https://github.com/itzjac/bytecave/blob/main/UE4.md)
+[UnrealEngine](https://github.com/itzjac/bytecave/blob/main/UE4) useful tips and tricks
 
-[Unity](https://github.com/itzjac/bytecave/blob/main/Unity.md)
+[Unity](https://github.com/itzjac/bytecave/blob/main/Unity) mostly rants
 
 
 ## Tools
 
-[Software](https://github.com/itzjac/bytecave/blob/main/Software.md) a very extensive and complete collection of tool for game development 
+[Software](https://github.com/itzjac/bytecave/blob/main/Software.md) a very extensive and complete collection of tool for game development
+
 [Unstoppable machine: Command line super powers](https://github.com/itzjac/bytecave/tree/main/commands)
 
 [Post Mortem(s) on GameDesign](https://github.com/itzjac/bytecave/tree/main/gamedesign)
 
+## What is The Byte Cave
+
+Honoring and giving credit to the original concept of our studio name
 
 What is The Byte Cave, [The Bat Cave London club](https://en.wikipedia.org/wiki/Batcave_(club))
+
 [Internet Archive Propaganda Magazine](https://archive.org/search.php?query=creator%3A%22Propaganda+Magazine%22)
