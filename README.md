@@ -24,10 +24,12 @@ This section only attempts to give you the very basics
 
 ## Game Development Rambling 
 
-Best practices, common pitafalls and rants throw my career
+Best practices, common pitfalls and rants throw my career
 
 [Computer Graphics](https://github.com/itzjac/bytecave/tree/main/gamedesign](https://github.com/itzjac/bytecave/blob/main/ComputerGraphics.md)
+
 [UnrealEngine](https://github.com/itzjac/bytecave/blob/main/UE4.md)
+
 [Unity](https://github.com/itzjac/bytecave/blob/main/Unity.md)
 
 
