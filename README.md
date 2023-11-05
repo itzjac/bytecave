@@ -24,7 +24,7 @@ This section only attempts to give you the very basics
 
 ## Game Development Rambling 
 
-Best practices, common pitfalls and rants throw my career
+Best practices, common pitfalls, anecdotes and rants throw my career
 
 [Computer Graphics](https://github.com/itzjac/bytecave/blob/main/ComputerGraphics.md]) bunch of nice articles
 
@@ -32,6 +32,7 @@ Best practices, common pitfalls and rants throw my career
 
 [Unity](https://github.com/itzjac/bytecave/blob/main/Unity) mostly rants
 
+[Post Mortem(s) on GameDesign](https://github.com/itzjac/bytecave/tree/main/gamedesign)
 
 ## Tools
 
@@ -39,7 +40,6 @@ Best practices, common pitfalls and rants throw my career
 
 [Unstoppable machine: Command line super powers](https://github.com/itzjac/bytecave/tree/main/commands)
 
-[Post Mortem(s) on GameDesign](https://github.com/itzjac/bytecave/tree/main/gamedesign)
 
 ## What is The Byte Cave
 
