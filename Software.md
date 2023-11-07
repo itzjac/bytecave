@@ -34,6 +34,9 @@
 * Screamer Radio https://www.screamer-radio.com/
 * Tune In Station https://tunein.com/
 * LAMe encoder  http://www.free-codecs.com/download/razorlame.htm
+* LaLa AI https://www.lalal.ai/
+* Moises https://studio.moises.ai/
+* Video Game Music Tracks https://downloads.khinsider.com/
  
 # BatchScriptingWindows
 * BATS https://www.tutorialspoint.com/batch_script/index.htm
