@@ -37,6 +37,9 @@
 * LaLa AI https://www.lalal.ai/
 * Moises https://studio.moises.ai/
 * Video Game Music Tracks https://downloads.khinsider.com/
+* https://waveformer.replicate.dev/
+* https://www.suno.ai/
+* https://huggingface.co/spaces/facebook/MusicGen
  
 # BatchScriptingWindows
 * BATS https://www.tutorialspoint.com/batch_script/index.htm
