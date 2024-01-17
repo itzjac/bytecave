@@ -23,6 +23,9 @@
 # Art
 * OpenGameArt https://opengameart.org/latest
 * Free sound https://freesound.org/
+* SFX https://www.zapsplat.com/
+* Free music for creators https://uppbeat.io/
+* Free music archive https://freemusicarchive.org/
 * TurboSquid https://www.turbosquid.com/
 * Mischief http://mischief.findmysoft.com/
 
