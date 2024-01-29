@@ -45,6 +45,7 @@
 * https://waveformer.replicate.dev/
 * https://www.suno.ai/
 * https://huggingface.co/spaces/facebook/MusicGen
+* BeepBox https://www.beepbox.co/
  
 # BatchScriptingWindows
 * BATS https://www.tutorialspoint.com/batch_script/index.htm
