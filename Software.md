@@ -187,6 +187,7 @@
 * Explorer Suite process viewer https://ntcore.com/?page_id=388
 * Epoch & Unix timestamp conversion tools https://www.epochconverter.com/
 * Random number generation https://www.pcg-random.org/paper.html
+* Heap exploitation https://raw.githubusercontent.com/cloudburst/libheap/master/heap.png
 
 # Python
 * Mat plot like Matlab for Python https://sourceforge.net/projects/matplotlib/files/matplotlib/matplotlib-1.0.1/
