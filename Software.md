@@ -46,6 +46,7 @@
 * https://www.suno.ai/
 * https://huggingface.co/spaces/facebook/MusicGen
 * BeepBox https://www.beepbox.co/
+* Great for kids bandlab https://www.bandlab.com/
  
 # BatchScriptingWindows
 * BATS https://www.tutorialspoint.com/batch_script/index.htm
