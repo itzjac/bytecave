@@ -219,6 +219,8 @@
 * Easy2Convert http://www.easy2convert.com/ Batch image converter
 * 240p test suite to evaluate upscalers http://junkerhq.net/xrgb/index.php?title=240p_test_suite
 * ShareX https://getsharex.com/
+* CapCut https://www.capcut.com/
+* DaVinci (super big and complete suite) https://www.blackmagicdesign.com/products/davinciresolve
 
 # WebDev
 * http://www.aptana.com/index.html
