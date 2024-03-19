@@ -30,6 +30,7 @@
 * Free music archive https://freemusicarchive.org/
 * TurboSquid https://www.turbosquid.com/
 * Mischief http://mischief.findmysoft.com/
+* Noun Project https://thenounproject.com/
 
 # Audio
 * winLAME  Encoder for audio formats  https://winlame.sourceforge.io/
