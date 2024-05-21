@@ -112,6 +112,7 @@
 * DDRescue Viewer https://sourceforge.net/projects/ddrescueview/
 * http://www.nongnu.org/lzip/lzip.html
 * TestDisk, cloning disks https://www.cgsecurity.org/Download_and_donate.php/testdisk-7.2-WIP.win.zip
+* CPU Benchmark https://cpu.userbenchmark.com/
 
 # Management
 * Project manager https://www.projectmanager.com/
