@@ -1,4 +1,4 @@
-(3D Modelling)(#3DModelling)
+[3D Modelling](#3DModelling)
 [Art](#Art)
 [Audio](#Audio)
 [Batch Scripting Windows](#BatchScriptWin32)
