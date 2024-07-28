@@ -1,3 +1,4 @@
+(3D Modelling)(#3DModelling)
 [Art](#Art)
 [Audio](#Audio)
 [Batch Scripting Windows](#BatchScriptWin32)
@@ -19,6 +20,10 @@
 [Web Development IDE](#WebDev)
 [Windows](#Windows)
 
+# 3DModelling
+* Genie (https://lumalabs.ai/genie?view=create)
+* Alpha3D (https://www.alpha3d.io/ai-3d-model-generator/)
+* Meshy (https://www.meshy.ai/)
 
 # Art
 * OpenGameArt https://opengameart.org/latest
