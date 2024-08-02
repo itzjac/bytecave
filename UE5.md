@@ -184,6 +184,9 @@ https://answers.unrealengine.com/questions/89747/how-to-read-netprofile-and-stat
 
 Epic Launcher ContentExamples /  Network_Features tutorials
 # Performance
+
+https://www.tomlooman.com/unrealengine-optimization-talk/ UE5 Optmization
+
 https://unrealartoptimization.github.io/book/process/ Art Optimization
 
 https://topic.alibabacloud.com/a/ui-optimization-tips-in-unreal-engine-4_8_8_10274886.html UI Optimization
