@@ -26,8 +26,6 @@ This section only attempts to give you the very basics
 
 Best practices, common pitfalls, anecdotes and rants throw my career
 
-[Career development during AI times] <---- link to the  power point presentation UAM-2024
-
 [Computer Graphics](https://github.com/itzjac/bytecave/blob/main/ComputerGraphics.md) bunch of nice articles
 
 [UnrealEngine](https://github.com/itzjac/bytecave/blob/main/UE4.md) useful tips and tricks
