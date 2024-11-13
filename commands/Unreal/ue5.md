@@ -27,6 +27,17 @@ UKismetSystemLibrary::DelayUntilNextTick
 ```
 
 
+```
+UAsyncActionLoadPrimaryAssetClass* UAsyncActionLoadPrimaryAssetClass::AsyncLoadPrimaryAssetClass
+UObject* UKismetSystemLibrary::LoadAsset_Blocking
+```
+
+
+
+```
+ResolveSoftReference
+```
+
 # UE4-noP4
 Create a new engine version
 
