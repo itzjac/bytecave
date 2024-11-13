@@ -1,4 +1,7 @@
 # Sections
+
+[UE5 Blueprints](#UE5-Blueprints)
+
 [UE5 Commands](#UE5-Commands)
 
 [UE4 Command Line](#UE4-CommandLine)
@@ -17,6 +20,11 @@
 
 [UE4 Blueprints](#UE4-Blueprint)
 
+# UE5-Blueprints
+
+```
+UKismetSystemLibrary::DelayUntilNextTick
+```
 
 
 # UE4-noP4
