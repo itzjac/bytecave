@@ -3,6 +3,7 @@
 [Audio](#Audio)
 [Batch Scripting Windows](#BatchScriptWin32)
 [Cheat](#Cheat)
+[Diagrams](#Diagrams)
 [Editors](#Editors)
 [Emulators](#Emulators)
 [File manip](#FileManip)
@@ -76,6 +77,11 @@
 * Bug Bounties, This is where “white hat” hackers find exploits and issues and, rather than using them for some nefarious purpose, they inform us of what they’ve found  https://www.microsoft.com/en-us/msrc/bounty-xbox, https://hackerone.com/rockstargames?type=team, https://www.riotgames.com/en/reporting-a-security-vulnerability
 * Easy Anti-Cheat, Bundled with Epic Online Services (EOS)
 * https://www.techpowerup.com/275158/denuvo-drm-pricing-structure-specific-to-crysis-remastered-leaked-over-usd-100k-for-a-year
+
+# Diagrams
+
+* Top for diagrams https://excalidraw.com/
+* Boards, diagrams, text, collaborative https://miro.com/
 
 # Editors
 * emacs https://www.gnu.org/software/emacs/
