@@ -54,6 +54,7 @@
 * https://huggingface.co/spaces/facebook/MusicGen
 * BeepBox https://www.beepbox.co/
 * Great for kids bandlab https://www.bandlab.com/
+* Nice effects and mockeups https://shots.so/
  
 # BatchScriptingWindows
 * BATS https://www.tutorialspoint.com/batch_script/index.htm
@@ -102,6 +103,7 @@
 * john179w2 password ripper https://www.openwall.com/john/
 * KeyFinder Magical Jelly Bean https://www.magicaljellybean.com/keyfinder/
 * ImageMagick https://imagemagick.org/index.php
+* Web image formatting https://squoosh.app/
 
 # Graphics
 * Nate Robbins Tutorials OpenGL https://user.xmission.com/~nate/tutors.html
