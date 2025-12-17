@@ -51,4 +51,4 @@ What is The Byte Cave, [The Bat Cave London club](https://en.wikipedia.org/wiki/
 
 ## Deeper into the language
 
-Cpp core Guidelines by Bjarne Stroustru Herb Sutter, an ongoing work with amazing refereces by the creator of the language and a true expert [CppCoreGuidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
+Cpp core Guidelines by Bjarne Stroustrup Herb Sutter, an ongoing work with amazing refereces by the creator of the language and a true expert [CppCoreGuidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
