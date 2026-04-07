@@ -225,6 +225,7 @@ Deploy a custom engine version for artists or machines without VStudio
 * Net PktLag=75
 * Net PktLagVariance=0
 * p.netshowcorrections 1
+* p.VisualizeMovement 1
 * t.Max FPS 30
 * ShowDebug Bones
 * r.setres 2560x1440 (-setresx=2560 -setresy=1440)
