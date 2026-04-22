@@ -199,6 +199,7 @@ Deploy a custom engine version for artists or machines without VStudio
 * UnrealVersionSelector.exe /fileassociations
 
 # UE5-Commands
+* reconnect
 * stat chaosthread
 * Netprofile enable
 * Netprofile disable
