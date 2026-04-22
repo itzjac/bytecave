@@ -200,6 +200,7 @@ Deploy a custom engine version for artists or machines without VStudio
 
 # UE5-Commands
 * reconnect
+* disconnect
 * stat chaosthread
 * Netprofile enable
 * Netprofile disable
