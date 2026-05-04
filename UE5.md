@@ -139,6 +139,8 @@ https://www.youtube.com/watch?v=jG0739vqV5U&feature=youtu.be
 
 # Animation
 
+https://eyad.tv/blog/unreal-animation-framework-uaf Ureal Animation Framework
+
 https://docs.unrealengine.com/latest/INT/Engine/Animation/RootMotion/index.html Root motion
 
 https://docs.unrealengine.com/latest/INT/Engine/Blueprints/UserGuide/EventDispatcher/index.html Event Dispatcher
